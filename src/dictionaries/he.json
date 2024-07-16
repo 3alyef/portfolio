@@ -1,5 +1,8 @@
 {
     "Metadata": {
         "title": ""
+    },
+    "Header": {
+        "links": ["Home", "About", "Experience", "Projects", "Contact"]
     }
 }
