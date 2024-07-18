@@ -9,4 +9,7 @@
     transition: all .2s ease-in-out;
 }
 
+.ltr { direction: ltr }
+.rtl { direction: rtl }
 
+@import "./components/components.scss";

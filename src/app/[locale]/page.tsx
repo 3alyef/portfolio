@@ -16,10 +16,10 @@ export default async function Home({
         tsahal_n5: "#97DCFC"
     }
     return (
-        <>
+        <body className={_dir}>
             <Header locale={locale} _dir={_dir} default_colors={default_colors}/>
             <Main locale={locale} _dir={_dir} default_colors={default_colors}/>
             <Footer locale={locale} _dir={_dir} default_colors={default_colors}/>
-        </>
+        </body>
     )
 }

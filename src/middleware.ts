@@ -12,7 +12,7 @@ export function middleware(request: NextRequest) {
   )
 
   // Verifique se a rota começa com `/imgs` ou '/api', se for, retorne a resposta atual
-  if (pathname.startsWith('/imgs') || pathname.startsWith('/api')) {
+  if (pathname.startsWith('/assets') || pathname.startsWith('/api')) {
     return NextResponse.next();
   }
 
@@ -29,15 +29,20 @@ export function middleware(request: NextRequest) {
     )
   }
   
+  // ========= '3RANIY!
   if (pathname.match(/^\/[a-z]{2}\/?$/)) { // Verificar se a rota é `/:locale/, se for redireciona para /`
     const locale = pathname.split('/')[1];
-    return NextResponse.redirect(
-      new URL(
-        `/${locale}/`,
-        request.url
-      )
-    );
+    const newLocalePath = `/${locale}`;
+    
+    // Evitar redirecionamento se o pathname já estiver no formato desejado
+    if (pathname !== newLocalePath) {
+      return NextResponse.redirect(
+        new URL(newLocalePath, request.url)
+      );
+    }
   }
+  // =========
+   
 }
 
 export const config = {
