@@ -33,9 +33,10 @@ export function middleware(request: NextRequest) {
   if (pathname.match(/^\/[a-z]{2}\/?$/)) { // Verificar se a rota é `/:locale/, se for redireciona para /`
     const locale = pathname.split('/')[1];
     const newLocalePath = `/${locale}`;
-    
+    const newLocalePath2 = `/${locale}/#`
     // Evitar redirecionamento se o pathname já estiver no formato desejado
-    if (pathname !== newLocalePath) {
+    console.log("href", pathname)
+    if (pathname !== newLocalePath && !pathname.includes(newLocalePath2)) {
       return NextResponse.redirect(
         new URL(newLocalePath, request.url)
       );

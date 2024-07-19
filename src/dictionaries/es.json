@@ -3,6 +3,6 @@
         "title": ""
     },
     "Header": {
-        "links": ["Home", "About", "Experience", "Projects", "Contact"]
+        "links": ["Inicio", "Sobre mí", "Experiencia", "Proyectos", "Contacto"]
     }
 }
