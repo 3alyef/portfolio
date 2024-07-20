@@ -1,6 +1,5 @@
 "use client";
 import { Locale } from "@/i18n";
-import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
 interface PropsLink {
@@ -31,13 +30,9 @@ export default function Link({ text, href, className, fontOff, locale }: PropsLi
             }
         };
     }, [fontOff])
-    const router = useRouter()
-    function redirect() {
-        router.push(`/${locale}/#${href}`);
-    }
     return (
         <>
-            <a onClick={redirect} style={{color}} className={className} ref={linkRef}>
+            <a style={{color}} className={className} ref={linkRef} href={`/${locale}/#${href}`}>
                 {text}
             </a>
         </>

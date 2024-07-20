@@ -1,13 +1,10 @@
-import { PropsDefaultPage } from "@/interfaces/defaultPage";
-import { getDictionary } from "@/lib/get-dictionary";
+import { PropsHeader } from "@/interfaces/defaultPage";
 import Link from "./components/link";
 import Image from "next/image";
 
-export default async function Header({ locale, _dir, default_colors }: PropsDefaultPage) {
-    const dictionary = await getDictionary(locale);
-    const hrefers = (await getDictionary("en")).Header.links;
+export default function Header({ locale, _dir, default_colors, headerRef, hrefers, dictionary }: PropsHeader) {
     return (
-        <header className="header">
+        <header className="header" ref={headerRef}>
             <span style={{position: "relative", width: "3em", aspectRatio: "1/1"}}>
                 <Image alt="portfolio-alef-logo" src={"/assets/logo.png"} fill style={{position: "absolute"}}/>
             </span>

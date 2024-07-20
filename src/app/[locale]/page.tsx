@@ -1,12 +1,13 @@
 import { Locale } from "@/i18n";
+import Body from "../components/body";
+import { getDictionary } from "@/lib/get-dictionary";
 import checkDir from "@/services/checkDir.service";
-import Main from "../components/main";
-import Footer from "../components/footer";
-import Header from "../components/header";
 
 export default async function Home({
     params: { locale }
-} : { params: { locale: Locale }}) {
+} : { params: { locale: Locale } } ) {
+    const dictionary = await getDictionary(locale);
+    const hrefers = (await getDictionary("en")).Header.links;
     const _dir = checkDir(locale);
     const default_colors = {
         tsahal_n1: "#132730",
@@ -15,11 +16,5 @@ export default async function Home({
         tsahal_n4: "#A1BDC9",
         tsahal_n5: "#97DCFC"
     }
-    return (
-        <body className={_dir}>
-            <Header locale={locale} _dir={_dir} default_colors={default_colors}/>
-            <Main locale={locale} _dir={_dir} default_colors={default_colors}/>
-            <Footer locale={locale} _dir={_dir} default_colors={default_colors}/>
-        </body>
-    )
+    return <Body _dir={_dir} default_colors={default_colors} dictionary={dictionary} hrefers={hrefers} locale={locale}/>
 }

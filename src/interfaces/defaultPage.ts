@@ -1,4 +1,6 @@
 import { Locale } from "@/i18n";
+import { RefObject } from "react";
+import { TypeDictionary } from "./dictionary";
 
 export interface PropsDefaultPage {
     locale: Locale;
@@ -11,3 +13,22 @@ export interface PropsDefaultPage {
         tsahal_n5: string;
     };
 }
+
+export interface PropsBody extends PropsDefaultPage, TypeDictionary {
+    hrefers: string[];
+}
+
+// ==============================
+
+export interface PropsHeader extends PropsDefaultPage, TypeDictionary {
+    headerRef: RefObject<HTMLAnchorElement>;
+    hrefers: string[];
+}
+
+export interface PropsMain extends PropsDefaultPage, TypeDictionary {
+    headerRef: RefObject<HTMLAnchorElement>
+}
+
+export interface PropsFooter extends PropsDefaultPage, TypeDictionary {
+}
+

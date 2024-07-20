@@ -1,8 +1,6 @@
-import { PropsDefaultPage } from "@/interfaces/defaultPage";
-import { getDictionary } from "@/lib/get-dictionary";
+import { PropsFooter } from "@/interfaces/defaultPage";
 
-export default async function Footer({ locale, _dir }: PropsDefaultPage) {
-    const dictionary = await getDictionary(locale);
+export default function Footer({ locale, _dir, default_colors, dictionary }: PropsFooter) {
     return (
         <footer>
             footer
