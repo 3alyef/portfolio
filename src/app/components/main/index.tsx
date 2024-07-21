@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import DefaultBody from "./components/defaultBody";
 
 
-export default function Main({_dir, default_colors, headerRef, locale }: PropsMain) {
+export default function Main({_dir, default_colors, headerRef, locale, dictionary }: PropsMain) {
     const [headerHeight, setHeaderHeight] = useState<number>();
 
     let style_a: React.CSSProperties = {
@@ -18,11 +18,11 @@ export default function Main({_dir, default_colors, headerRef, locale }: PropsMa
         if (headerRef.current) {
             setHeaderHeight(headerRef.current.clientHeight);
         }
-    }, [headerRef]);
+    }, []);
 
     return (
         <main>
-            <DefaultBody locale={locale} style={{ ...style_a, minHeight: `calc(100vh - ${headerHeight}px)` }} id="home">
+            <DefaultBody locale={locale} style={{ ...style_a, paddingTop: `${headerHeight}px` /*`calc(100vh - ${headerHeight}px)`*/ }} id="home">
                 <span>Home</span>
             </DefaultBody>
             <DefaultBody locale={locale} style={style_b} id="about">

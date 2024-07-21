@@ -26,7 +26,7 @@ export interface PropsHeader extends PropsDefaultPage, TypeDictionary {
 }
 
 export interface PropsMain extends PropsDefaultPage, TypeDictionary {
-    headerRef: RefObject<HTMLAnchorElement>
+    headerRef: RefObject<HTMLAnchorElement>;
 }
 
 export interface PropsFooter extends PropsDefaultPage, TypeDictionary {

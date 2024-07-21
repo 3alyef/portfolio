@@ -6,7 +6,11 @@
     padding: 0;
     box-sizing: border-box;
     z-index: 50;
-    transition: all .2s ease-in-out;
+    //transition: all .2s ease-in-out;
+    font-family: Saira, sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    transition: .3s ease;
 }
 
 .ltr { direction: ltr }

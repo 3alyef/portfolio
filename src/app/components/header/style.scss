@@ -1,8 +1,10 @@
 .header {
+    //position: fixed;
     background-color: rgba(19, 39, 48, 0.75);
     display: flex;
     padding: 7px;
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    transition: top .5s ease;
 }
