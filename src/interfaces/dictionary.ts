@@ -6,5 +6,11 @@ export type TypeDictionary = {
         Header: {
             links: string[];
         };
+        Main: {
+            Home: {
+                name: string;
+                profession: string;
+            };
+        };
     }
 }

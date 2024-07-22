@@ -2,8 +2,13 @@
     "Metadata": {
         "title": ""
     },
-
     "Header": {
         "links": ["Home", "Over", "Ervaring", "Projecten", "Contacten"]
+    },
+    "Main": {
+        "Home": {
+            "name": "Alef A. Araujo",
+            "profession": "Webontwikkelaar"
+        }
     }
 }

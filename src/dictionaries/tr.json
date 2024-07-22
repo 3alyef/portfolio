@@ -2,8 +2,13 @@
     "Metadata": {
         "title": ""
     },
-
     "Header": {
         "links": ["Anasayfa", "Hakkında", "Deneyim", "Projeler", "İletişim"]
+    },
+    "Main": {
+        "Home": {
+            "name": "Alef A. Araujo",
+            "profession": "Web Geliştiricisi"
+        }
     }
 }

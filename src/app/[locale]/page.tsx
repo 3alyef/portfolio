@@ -3,7 +3,7 @@ import Body from "../components/body";
 import { getDictionary } from "@/lib/get-dictionary";
 import checkDir from "@/services/checkDir.service";
 
-export default async function Home({
+export default async function Start({
     params: { locale }
 } : { params: { locale: Locale } } ) {
     const dictionary = await getDictionary(locale);

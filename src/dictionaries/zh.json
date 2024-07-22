@@ -2,8 +2,13 @@
     "Metadata": {
         "title": ""
     },
-
     "Header": {
         "links": ["首页", "关于", "经历", "项目", "联系方式"]
+    },
+    "Main": {
+        "Home": {
+            "name": "Alef A. Araujo",
+            "profession": "Web开发人员"
+        }
     }
 }

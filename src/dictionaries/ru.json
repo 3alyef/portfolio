@@ -2,8 +2,13 @@
     "Metadata": {
         "title": ""
     },
-
     "Header": {
         "links": ["Главная", "О нас", "Опыт", "Проекты", "Контакты"]
+    },
+    "Main": {
+        "Home": {
+            "name": "Alef A. Araujo",
+            "profession": "Веб-разработчик"
+        }
     }
 }

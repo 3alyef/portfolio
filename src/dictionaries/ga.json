@@ -2,8 +2,13 @@
     "Metadata": {
         "title": ""
     },
-
     "Header": {
         "links": ["Baile", "Maidir le", "Taithí", "Tionscadail", "Conairí"]
+    },
+    "Main": {
+        "Home": {
+            "name": "Alef A. Araujo",
+            "profession": "Datblygwr Gwe"
+        }
     }
 }

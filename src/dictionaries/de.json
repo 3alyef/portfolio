@@ -5,5 +5,11 @@
 
     "Header": {
         "links": ["Startseite", "Über", "Erfahrung", "Projekte", "Kontakte"]
+    },
+    "Main": {
+        "Home": {
+            "name": "Alef A. Araujo",
+            "profession": "Web-Entwickler"
+        }
     }
 }
