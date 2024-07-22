@@ -9,6 +9,11 @@
         "Home": {
             "name": "Alef A. Araujo",
             "profession": "Datblygwr Gwe"
+        },
+        "About": {
+            "about_me": "Amdanaf i",
+            "paragraph_1": "Fy enw i yw Alef ac rwy'n angerddol am dechnolegau newydd. Rwy'n cydnabod pwysigrwydd technolegau sydd eisoes wedi'u cyfuno yn y farchnad, ond rwyf bob amser yn gwneud lle i rywbeth newydd. Dechreuais yn yr ardal ar ddiwedd 2020, gan astudio hanfodion datblygu gwe.",
+            "paragraph_2": "Ar hyn o bryd rwy'n astudio Dadansoddi a Datblygu Systemau ac yn canolbwyntio ar ehangu fy sgiliau."
         }
     }
 }

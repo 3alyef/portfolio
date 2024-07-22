@@ -10,6 +10,11 @@
         "Home": {
             "name": "Alef A. Araujo",
             "profession": "Web Developer"
+        },
+        "About": {
+            "about_me": "About Me",
+            "paragraph_1": "My name is Alef and I am passionate about new technologies. I recognize the importance of technologies already consolidated in the market, but I always make room for something new. I started in the area at the end of 2020, studying the fundamentals of web development.",
+            "paragraph_2": "I am currently studying Systems Analysis and Development (ASD) and focusing on expanding my skills."
         }
     }
 }

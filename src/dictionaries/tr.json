@@ -9,6 +9,11 @@
         "Home": {
             "name": "Alef A. Araujo",
             "profession": "Web Geliştiricisi"
+        },
+        "About": {
+            "about_me": "Benim hakkımda",
+            "paragraph_1": "Adım Alef ve yeni teknolojilere tutkuyla bağlıyım. Piyasada halihazırda konsolide edilmiş teknolojilerin öneminin farkındayım ancak her zaman yeni bir şeye yer açıyorum. Bu alana 2020'nin sonunda web geliştirmenin temellerini inceleyerek başladım.",
+            "paragraph_2": "Şu anda Sistem Analizi ve Geliştirme okuyorum ve becerilerimi geliştirmeye odaklanıyorum."
         }
     }
 }

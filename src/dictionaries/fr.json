@@ -9,6 +9,11 @@
         "Home": {
             "name": "Alef A. Araujo",
             "profession": "Développeur Web"
+        },
+        "About": {
+            "about_me": "Sur moi",
+            "paragraph_1": "Je m'appelle Alef et je suis passionné par les nouvelles technologies. Je reconnais l'importance des technologies déjà consolidées sur le marché, mais je laisse toujours de la place à quelque chose de nouveau. J'ai débuté dans le domaine fin 2020, en étudiant les fondamentaux du développement web.",
+            "paragraph_2": "J'étudie actuellement l'analyse et le développement de systèmes (ADS) et je me concentre sur l'élargissement de mes compétences."
         }
     }
 }

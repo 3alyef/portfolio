@@ -11,6 +11,11 @@ export type TypeDictionary = {
                 name: string;
                 profession: string;
             };
+            About: {
+                about_me: string;
+                paragraph_1: string;
+                paragraph_2: string;
+            };
         };
     }
 }

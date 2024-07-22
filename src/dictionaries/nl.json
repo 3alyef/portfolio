@@ -9,6 +9,11 @@
         "Home": {
             "name": "Alef A. Araujo",
             "profession": "Webontwikkelaar"
+        },
+        "About": {
+            "about_me": "Over Mij",
+            "paragraph_1": "Mijn naam is Alef en ik ben gepassioneerd door nieuwe technologieën. Ik erken het belang van technologieën die al in de markt zijn geconsolideerd, maar ik maak altijd ruimte voor iets nieuws. Ik ben eind 2020 in dit gebied begonnen en heb de grondbeginselen van webontwikkeling bestudeerd.",
+            "paragraph_2": "Ik studeer momenteel Systeemanalyse en Ontwikkeling en concentreer me op het uitbreiden van mijn vaardigheden."
         }
     }
 }

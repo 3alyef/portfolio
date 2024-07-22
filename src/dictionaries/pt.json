@@ -9,6 +9,11 @@
         "Home": {
             "name": "Alef A. Araujo",
             "profession": "Desenvolvedor Web"
+        },
+        "About": {
+            "about_me": "Sobre Mim",
+            "paragraph_1": "Me chamo Alef e sou apaixonado por novas tecnologias. Reconheço a importância das tecnologias já consolidadas no mercado, mas sempre dou espaço para o novo. Comecei na área no fim de 2020, estudando desenvolvimento web de forma sucinta. ",
+            "paragraph_2": "Atualmente, estou cursando Análise e Desenvolvimento de Sistemas (ADS) e focando em expandir minhas skills."
         }
     }
 }
