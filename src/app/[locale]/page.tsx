@@ -14,7 +14,8 @@ export default async function Start({
         tsahal_n2: "#3C5763",
         tsahal_n3: "#788D96",
         tsahal_n4: "#A1BDC9",
-        tsahal_n5: "#97DCFC"
+        tsahal_n5: "#97DCFC",
+        tsahal_gray: "#F0F0F0"
     }
     return <Body _dir={_dir} default_colors={default_colors} dictionary={dictionary} hrefers={hrefers} locale={locale}/>
 }

@@ -11,6 +11,7 @@ export interface PropsDefaultPage {
         tsahal_n3: string;
         tsahal_n4: string;
         tsahal_n5: string;
+        tsahal_gray: string
     };
 }
 

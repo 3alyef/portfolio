@@ -1,0 +1,15 @@
+@keyframes faFirstOrderAltAnimation {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 360deg;
+    }
+}
+.faFirstOrderAltAnimated {
+    position: absolute;
+    font-size: .5em;
+    //bottom: -15%;
+    animation: faFirstOrderAltAnimation infinite 15s ease-in-out;
+    transition: all 10s ease-in-out;
+}
