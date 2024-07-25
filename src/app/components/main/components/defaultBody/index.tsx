@@ -19,8 +19,8 @@ const DefaultBody = forwardRef<HTMLDivElement, PropsDefaultBody>(
         const redirectedPathName = (href: string) => {
             if (!pathName) return "/";
             const segments = pathName.split("/");
-            //segments[1] = `${segments[1]}#${href}`;
-            return `/${segments[1]}#${href}`//segments.join("/");
+            segments[1] = `${segments[1]}#${href}`;
+            return segments.join("/");
         };
 
         const handleMouseEnter = () => {

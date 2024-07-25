@@ -32,7 +32,7 @@ export default function Link({ text, href, className, fontOff, locale }: PropsLi
     }, [fontOff])
     return (
         <>
-            <a style={{color}} className={className} ref={linkRef} href={`/${locale}/#${href}`}>
+            <a style={{color}} className={className} ref={linkRef} href={`#${href}`}>
                 {text}
             </a>
         </>
