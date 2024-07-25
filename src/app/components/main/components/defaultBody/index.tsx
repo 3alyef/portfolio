@@ -1,5 +1,5 @@
+import React, { forwardRef, RefObject } from 'react';
 import { Locale } from "@/i18n";
-import { RefObject } from "react";
 
 interface PropsDefaultBody {
     children: React.ReactNode;
@@ -7,14 +7,22 @@ interface PropsDefaultBody {
     style: React.CSSProperties;
     id: string;
     className?: string;
-    ref?: RefObject<HTMLAnchorElement>;
+    styleDiv?: React.CSSProperties
 }
 
-export default function DefaultBody({children, locale, style, id, className, ref}: PropsDefaultBody) {
-    return (
-        <section className={`flex flex-col min-h-[100vh] w-[100%] ${className}`}
-        style={style} id={id} ref={ref}>
-            {children}
-        </section>
-    )
-}
+const DefaultBody = forwardRef<HTMLDivElement, PropsDefaultBody>(
+    ({ children, locale, style, id, className, styleDiv }, ref) => {
+        return (
+            <section 
+                className={`flex flex-col min-h-[100vh] w-full ${className}`}
+                style={style} 
+                id={id} 
+                ref={ref}
+            >
+                <div className="flex flex-col items-start justify-center" style={styleDiv}>{children}</div>
+            </section>
+        );
+    }
+);
+DefaultBody.displayName = 'DefaultBody';
+export default DefaultBody;

@@ -12,8 +12,19 @@
         },
         "About": {
             "about_me": "Benim hakkımda",
-            "paragraph_1": "Adım Alef ve yeni teknolojilere tutkuyla bağlıyım. Piyasada halihazırda konsolide edilmiş teknolojilerin öneminin farkındayım ancak her zaman yeni bir şeye yer açıyorum. Bu alana 2020'nin sonunda web geliştirmenin temellerini inceleyerek başladım.",
-            "paragraph_2": "Şu anda Sistem Analizi ve Geliştirme okuyorum ve becerilerimi geliştirmeye odaklanıyorum."
+            "paragraph_1": "Şu anda full stack geliştirmeye odaklanıyor.",
+            "paragraph_2": "Adım Alef ve yeni teknolojilere tutkuyla bağlıyım. Piyasada halihazırda konsolide edilmiş teknolojilerin öneminin farkındayım ancak her zaman yeni bir şeye yer açıyorum. Bu alana 2020'nin sonunda web geliştirmenin temellerini inceleyerek başladım.",
+            "paragraph_3": "Şu anda Sistem Analizi ve Geliştirme okuyorum ve becerilerimi geliştirmeye odaklanıyorum."
+        },
+        "Experience": {
+            "experience": "Deneyim",
+            "freelancer": "Serbest Çalışan",
+            "text": "Teknolojiye tutkulu bir serbest geliştiriciyim, çeşitli zorluklar için yaratıcı ve etkili çözümler arıyorum. Basitlik ve işlevselliğe sürekli odaklanarak, en iyi kullanıcı deneyimini sunan sezgisel arayüzler oluşturmak için çalışıyorum.",
+            "paragraph_1": "Ayrıca, istemci tarafı ile veritabanı arasında etkili iletişimi sağlayan sağlam API'ler geliştirme deneyimim var.",
+            "paragraph_2": "Önceki projelerim becerilerimi geliştirmeye yönelikti, ancak bilgi ve deneyimlerimi profesyonel bir ortamda uygulama ve yenilikçi, etkili çözümler sunma konusunda heyecanlıyım.",
+            "paragraph_3": "Şu anda bir geliştirme ekibinde profesyonel deneyimimi genişletmek için fırsatlar arıyorum.",
+            "paragraph_4": "Teknolojilerim:"
         }
+
     }
 }

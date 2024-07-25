@@ -13,8 +13,21 @@
         },
         "About": {
             "about_me": "About Me",
-            "paragraph_1": "My name is Alef and I am passionate about new technologies. I recognize the importance of technologies already consolidated in the market, but I always make room for something new. I started in the area at the end of 2020, studying the fundamentals of web development.",
-            "paragraph_2": "I am currently studying Systems Analysis and Development (ASD) and focusing on expanding my skills."
+            "paragraph_1": "Currently, focus on full stack development.",
+            "paragraph_2": "My name is Alef and I am passionate about new technologies. I recognize the importance of technologies already consolidated in the market, but I always make room for something new. I started in the area at the end of 2020, studying the fundamentals of web development.",
+            "paragraph_3": "I am currently studying Systems Analysis and Development (ASD) and focusing on expanding my skills."
+        },
+        "Experience": {
+            "experience": "Experience",
+            "freelancer": "Freelancer",
+            "text": "I am a Freelance Developer passionate about technology, always seeking creative and effective solutions for various challenges. With a constant focus on simplicity and functionality, I work to create intuitive interfaces that provide the best user experience.",
+            "paragraph_1": "Additionally, I have experience in developing robust APIs that ensure efficient communication between client-side and database.",
+            "paragraph_2": "Although my previous projects have been aimed at enhancing my skills, I am excited to apply my knowledge in a professional environment and contribute to innovative and impactful solutions.",
+            "paragraph_3": "Currently, I am looking to expand my professional experience within a development team.",
+            "paragraph_4": "My technologies:"
         }
+        
+          
+
     }
 }

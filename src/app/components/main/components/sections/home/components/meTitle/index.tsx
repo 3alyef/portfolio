@@ -13,15 +13,15 @@ export default function MeTitle({_dir, default_colors, dictionary, locale}: Prop
                 {dictionary.Main.Home.profession}
             </h2>
             <div className="flex items-center text-[40px] gap-[37px]">
-                <span>
+                <a target="_blank" href="https://www.linkedin.com/in/alefalvesaraujo/">
                     <FaLinkedin style={{color: "#0A66C2"}}/>
-                </span>
-                <span>
+                </a>
+                <a target="_blank" href="https://github.com/3alyef">
                     <FaGithub />
-                </span>
-                <span>
+                </a>
+                {/*<a target="_blank" href="">
                     <FaInstagram />
-                </span>
+                </a>*/}
             </div>
         </section>
     )

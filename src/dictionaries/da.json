@@ -13,8 +13,19 @@
         },
         "About": {
             "about_me": "Om mig",
-            "paragraph_1": "Mit navn er Alef, og jeg brænder for nye teknologier. Jeg anerkender vigtigheden af ​​teknologier, der allerede er konsolideret på markedet, men jeg giver altid plads til noget nyt. Jeg startede i området i slutningen af ​​2020, hvor jeg studerede det grundlæggende i webudvikling.",
-            "paragraph_2": "Jeg studerer i øjeblikket systemanalyse og udvikling og fokuserer på at udvide mine kompetencer."
+            "paragraph_1": "I øjeblikket fokuserer på full stack-udvikling.",
+            "paragraph_2": "Mit navn er Alef, og jeg brænder for nye teknologier. Jeg anerkender vigtigheden af ​​teknologier, der allerede er konsolideret på markedet, men jeg giver altid plads til noget nyt. Jeg startede i området i slutningen af ​​2020, hvor jeg studerede det grundlæggende i webudvikling.",
+            "paragraph_3": "Jeg studerer i øjeblikket systemanalyse og udvikling og fokuserer på at udvide mine kompetencer."
+        },
+        "Experience": {
+            "experience": "Erfaring",
+            "freelancer": "Freelancer",
+            "text": "Jeg er en freelance udvikler, der er passioneret omkring teknologi og altid søger kreative og effektive løsninger på forskellige udfordringer. Med konstant fokus på enkelhed og funktionalitet arbejder jeg på at skabe intuitive grænseflader, der giver den bedste brugeroplevelse.",
+            "paragraph_1": "Derudover har jeg erfaring med at udvikle robuste API'er, der sikrer effektiv kommunikation mellem klient-side og database.",
+            "paragraph_2": "Selvom mine tidligere projekter har haft til formål at forbedre mine færdigheder, er jeg begejstret for at anvende min viden i et professionelt miljø og bidrage til innovative og effektive løsninger.",
+            "paragraph_3": "I øjeblikket søger jeg at udvide min professionelle erfaring inden for et udviklingsteam.",
+            "paragraph_4": "Mine teknologier:"
         }
+
     }
 }

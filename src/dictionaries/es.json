@@ -12,8 +12,19 @@
         },
         "About": {
             "about_me": "Acerca de mí",
-            "paragraph_1": "Mi nombre es Alef y me apasionan las nuevas tecnologías. Reconozco la importancia de las tecnologías ya consolidadas en el mercado, pero siempre dejo espacio para algo nuevo. Comencé en el área a finales del 2020, estudiando los fundamentos del desarrollo web.",
-            "paragraph_2": "Actualmente estoy estudiando Análisis y Desarrollo de Sistemas (ADS) y enfocándome en ampliar mis habilidades."
+            "paragraph_1": "Actualmente, se enfoca en el desarrollo full stack.",
+            "paragraph_2": "Mi nombre es Alef y me apasionan las nuevas tecnologías. Reconozco la importancia de las tecnologías ya consolidadas en el mercado, pero siempre dejo espacio para algo nuevo. Comencé en el área a finales del 2020, estudiando los fundamentos del desarrollo web.",
+            "paragraph_3": "Actualmente estoy estudiando Análisis y Desarrollo de Sistemas (ADS) y enfocándome en ampliar mis habilidades."
+        },
+        "Experience": {
+            "experience": "Experiencia",
+            "freelancer": "Freelancer",
+            "text": "Soy un desarrollador freelance apasionado por la tecnología, siempre en busca de soluciones creativas y efectivas para diversos desafíos. Con un enfoque constante en la simplicidad y la funcionalidad, trabajo para crear interfaces intuitivas que brinden la mejor experiencia al usuario.",
+            "paragraph_1": "Además, tengo experiencia en el desarrollo de API robustas que garantizan una comunicación eficiente entre el lado del cliente y la base de datos.",
+            "paragraph_2": "Aunque mis proyectos anteriores han estado dirigidos a mejorar mis habilidades, estoy entusiasmado por aplicar mi conocimiento en un entorno profesional y contribuir a soluciones innovadoras e impactantes.",
+            "paragraph_3": "Actualmente, estoy buscando expandir mi experiencia profesional dentro de un equipo de desarrollo.",
+            "paragraph_4": "Mis tecnologías:"
         }
+
     }
 }

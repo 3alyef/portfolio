@@ -12,8 +12,19 @@
         },
         "About": {
             "about_me": "Amdanaf i",
-            "paragraph_1": "Fy enw i yw Alef ac rwy'n angerddol am dechnolegau newydd. Rwy'n cydnabod pwysigrwydd technolegau sydd eisoes wedi'u cyfuno yn y farchnad, ond rwyf bob amser yn gwneud lle i rywbeth newydd. Dechreuais yn yr ardal ar ddiwedd 2020, gan astudio hanfodion datblygu gwe.",
-            "paragraph_2": "Ar hyn o bryd rwy'n astudio Dadansoddi a Datblygu Systemau ac yn canolbwyntio ar ehangu fy sgiliau."
+            "paragraph_1": "Faoi láthair, dírithe ar fhorbairt full stack.",
+            "paragraph_2": "Fy enw i yw Alef ac rwy'n angerddol am dechnolegau newydd. Rwy'n cydnabod pwysigrwydd technolegau sydd eisoes wedi'u cyfuno yn y farchnad, ond rwyf bob amser yn gwneud lle i rywbeth newydd. Dechreuais yn yr ardal ar ddiwedd 2020, gan astudio hanfodion datblygu gwe.",
+            "paragraph_3": "Ar hyn o bryd rwy'n astudio Dadansoddi a Datblygu Systemau ac yn canolbwyntio ar ehangu fy sgiliau."
+        },
+        "Experience": {
+            "experience": "Taithí",
+            "freelancer": "Saoráideach",
+            "text": "Is forbróir saoráideach mé atá paiseanta faoi theicneolaíocht, i gcónaí ag lorg réitigh chruthaitheacha agus éifeachtacha do dúshláin éagsúla. Le comhoibriú buan ar shimplíocht agus feidhmiúlacht, oibrím chun comhoiriúnachtaí intuigthe a chruthú a sholáthraíonn an taithí is fearr don úsáideoir.",
+            "paragraph_1": "Chomh maith leis sin, tá taithí agam ar fhorbairt APIanna láidre a chinntíonn cumarsáid éifeachtach idir an taobh cliant agus an bunachar sonraí.",
+            "paragraph_2": "Cé go raibh mo thionscadail roimhe seo dírithe ar mo scileanna a fheabhsú, tá mé paiseanta chun mo chuid eolais a chur i bhfeidhm i dtimpeallacht ghairmiúil agus comhoibriú ar réitigh nuálacha agus tábhachtacha.",
+            "paragraph_3": "Faoi láthair, táim ag lorg síneadh ar mo thaithí ghairmiúil laistigh de ghrúpa forbartha.",
+            "paragraph_4": "Mo theicneolaíochtaí:"
         }
+
     }
 }

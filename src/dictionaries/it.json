@@ -12,8 +12,19 @@
         },
         "About": {
             "about_me": "Su di me",
-            "paragraph_1": "Mi chiamo Alef e sono appassionato di nuove tecnologie. Riconosco l'importanza delle tecnologie già consolidate nel mercato, ma do sempre spazio a qualcosa di nuovo. Ho iniziato nell'area alla fine del 2020, studiando i fondamenti dello sviluppo web.",
-            "paragraph_2": "Attualmente sto studiando Analisi e Sviluppo di Sistemi (ASS) e mi sto concentrando sull'ampliamento delle mie competenze."
+            "paragraph_1": "Attualmente, si concentra sullo sviluppo full stack.",
+            "paragraph_2": "Mi chiamo Alef e sono appassionato di nuove tecnologie. Riconosco l'importanza delle tecnologie già consolidate nel mercato, ma do sempre spazio a qualcosa di nuovo. Ho iniziato nell'area alla fine del 2020, studiando i fondamenti dello sviluppo web.",
+            "paragraph_3": "Attualmente sto studiando Analisi e Sviluppo di Sistemi (ASS) e mi sto concentrando sull'ampliamento delle mie competenze."
+        },
+        "Experience": {
+            "experience": "Esperienza",
+            "freelancer": "Freelancer",
+            "text": "Sono uno sviluppatore freelance appassionato di tecnologia, sempre alla ricerca di soluzioni creative ed efficaci per sfide diverse. Con un costante focus sulla semplicità e sulla funzionalità, lavoro per creare interfacce intuitive che offrano la migliore esperienza utente.",
+            "paragraph_1": "Inoltre, ho esperienza nello sviluppo di API robuste che garantiscono una comunicazione efficiente tra il lato client e il database.",
+            "paragraph_2": "Sebbene i miei progetti precedenti siano stati mirati a migliorare le mie competenze, sono entusiasta di applicare la mia conoscenza in un ambiente professionale e contribuire a soluzioni innovative e impattanti.",
+            "paragraph_3": "Attualmente, sono alla ricerca di ampliare la mia esperienza professionale all'interno di un team di sviluppo.",
+            "paragraph_4": "Le mie tecnologie:"
         }
+
     }
 }

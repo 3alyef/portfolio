@@ -12,8 +12,27 @@
         },
         "About": {
             "about_me": "Sobre Mim",
-            "paragraph_1": "Me chamo Alef e sou apaixonado por novas tecnologias. Reconheço a importância das tecnologias já consolidadas no mercado, mas sempre dou espaço para o novo. Comecei na área no fim de 2020, estudando desenvolvimento web de forma sucinta. ",
-            "paragraph_2": "Atualmente, estou cursando Análise e Desenvolvimento de Sistemas (ADS) e focando em expandir minhas skills."
+            "paragraph_1": "Olá, eu sou Alef, um desenvolvedor full stack em busca da minha primeira oportunidade profissional. Desde o final de 2020, venho me dedicando ao desenvolvimento web, sempre com um equilíbrio entre o respeito pelas tecnologias consolidadas e a abertura para inovações.",
+            "paragraph_2": "Atualmente, estou cursando Análise e Desenvolvimento de Sistemas (ADS), e meu objetivo é aplicar e expandir minhas habilidades em um ambiente desafiador e inovador. Estou animado para contribuir com minha paixão por tecnologia e meu desejo de aprender em um novo projeto."
+        },
+        "Experience": {
+            "experience": "Experiência",
+            "freelancer": "Freelancer",
+            "text": "Sou um Desenvolvedor Freelancer apaixonado por tecnologia, sempre em busca de soluções criativas e eficazes para desafios diversos.",
+            "paragraph_1": "Além disso, tenho experiência no desenvolvimento de APIs e interfaces front end.",
+            "paragraph_2": "Embora meus projetos anteriores tenham sido voltados para aprimorar minhas habilidades, estou entusiasmado para aplicar meu conhecimento em um ambiente profissional e contribuir para soluções inovadoras e impactantes.",
+            "paragraph_3": "No momento, estou à procura de expandir minha experiência profissional em uma equipe de desenvolvimento.",
+            "paragraph_4": "Minhas tecnologias:"
+        },
+        "Projects": {
+            "projects": "Projetos",
+            "projectsAbout": {
+                "al_postel": {
+                    "name": "Al Postel",
+                    "about": "Chat em tempo real..."
+                }
+            }
         }
+
     }
 }

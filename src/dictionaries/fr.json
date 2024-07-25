@@ -12,8 +12,19 @@
         },
         "About": {
             "about_me": "Sur moi",
-            "paragraph_1": "Je m'appelle Alef et je suis passionné par les nouvelles technologies. Je reconnais l'importance des technologies déjà consolidées sur le marché, mais je laisse toujours de la place à quelque chose de nouveau. J'ai débuté dans le domaine fin 2020, en étudiant les fondamentaux du développement web.",
-            "paragraph_2": "J'étudie actuellement l'analyse et le développement de systèmes (ADS) et je me concentre sur l'élargissement de mes compétences."
+            "paragraph_1": "Actuellement, se concentre sur le développement full stack.",
+            "paragraph_2": "Je m'appelle Alef et je suis passionné par les nouvelles technologies. Je reconnais l'importance des technologies déjà consolidées sur le marché, mais je laisse toujours de la place à quelque chose de nouveau. J'ai débuté dans le domaine fin 2020, en étudiant les fondamentaux du développement web.",
+            "paragraph_3": "J'étudie actuellement l'analyse et le développement de systèmes (ADS) et je me concentre sur l'élargissement de mes compétences."
+        },
+        "Experience": {
+            "experience": "Expérience",
+            "freelancer": "Freelance",
+            "text": "Je suis un développeur freelance passionné par la technologie, toujours à la recherche de solutions créatives et efficaces pour divers défis. Avec un focus constant sur la simplicité et la fonctionnalité, je travaille à créer des interfaces intuitives qui offrent la meilleure expérience utilisateur.",
+            "paragraph_1": "De plus, j'ai de l'expérience dans le développement d'API robustes qui assurent une communication efficace entre le client et la base de données.",
+            "paragraph_2": "Bien que mes projets précédents aient été axés sur l'amélioration de mes compétences, je suis enthousiaste à l'idée d'appliquer mes connaissances dans un environnement professionnel et de contribuer à des solutions innovantes et impactantes.",
+            "paragraph_3": "Actuellement, je cherche à étendre mon expérience professionnelle au sein d'une équipe de développement.",
+            "paragraph_4": "Mes technologies :"
         }
+
     }
 }

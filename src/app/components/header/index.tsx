@@ -3,6 +3,7 @@ import { PropsHeader } from "@/interfaces/defaultPage";
 import Link from "./components/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import LanguageSwitch from "./components/languageSwitch/languageSwitch";
 
 export default function Header({ locale, _dir, default_colors, headerRef, hrefers, dictionary }: PropsHeader) {
     const [lastScrollPosition, setLastScrollPosition] = useState(0);
@@ -70,7 +71,7 @@ export default function Header({ locale, _dir, default_colors, headerRef, hrefer
     }, [lastScrollPosition])
     return (
         <header className="header" ref={headerRef}
-        style={{ position: headerPosition, top: top ? "0%" : "-100%" }}
+        style={{ position: headerPosition, top: top ? "0%" : "-100%", zIndex: "2" }}
         onMouseEnter={()=> {
             !mouseIn && setMouseIn(true);
             if(!(previousMouseIn === "none"))
@@ -88,6 +89,7 @@ export default function Header({ locale, _dir, default_colors, headerRef, hrefer
                     <Link href={`${hrefers[index].toLowerCase()}`} text={name} key={hrefers[index]} locale={locale} fontOff={default_colors.tsahal_n5} className="text-[20px]"/>
                 ))}
             </nav>
+            <LanguageSwitch locale={locale}/>
         </header>
     )
 }
