@@ -7,7 +7,7 @@ export default async function Start({
     params: { locale }
 } : { params: { locale: Locale } } ) {
     const dictionary = await getDictionary(locale);
-    const hrefers = (await getDictionary("pt")).Header.links;
+    const hrefers = (await getDictionary("en")).Header.links;
     const _dir = checkDir(locale);
     const default_colors = {
         tsahal_n1: "#132730",
