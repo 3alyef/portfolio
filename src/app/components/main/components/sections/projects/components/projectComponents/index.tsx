@@ -15,7 +15,7 @@ interface PropsProjectComponents extends default_colors {
     styleMain?:React.CSSProperties
 }
 export default function ProjectComponents({img, alt, name, className, styleImg, classNameSpan, default_colors, clickFunction, type2Label, styleMain }: PropsProjectComponents) {
-    const [labelVisible, setLabelVible] = useState(true); //false
+    const [labelVisible, setLabelVible] = useState(false); 
     
    
     return (
