@@ -95,7 +95,7 @@ const LanguageSwitch: React.FC<PropsLanguageSwitch> = ({locale}) => {
                                         <li key={key} onClick={()=>{
                                             setTimeout(() => {
                                                 redirectedPathName(key);
-                                            }, 100); 
+                                            }, 1000); 
                                             
                                         }   
                                         }>
