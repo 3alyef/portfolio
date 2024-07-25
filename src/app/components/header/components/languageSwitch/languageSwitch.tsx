@@ -11,7 +11,7 @@ interface PropsLanguageSwitch {
 const LanguageSwitch: React.FC<PropsLanguageSwitch> = ({locale}) => {
     //
     const getCurrentHash = () => window.location.hash;
-    const getCurrentPathName = () => window.location.pathname;
+    const pathName = usePathname();
     //
     const [top, setTop] = useState(0);
     const languageSwitchRef = useRef<HTMLDivElement>(null);
@@ -19,19 +19,16 @@ const LanguageSwitch: React.FC<PropsLanguageSwitch> = ({locale}) => {
     const router = useRouter();
     const redirectedPathName = (locale: string) => {
         //
-        const pathName = getCurrentPathName();
         const hash = getCurrentHash();
         //
         
         if (!pathName) return "/";
-        //const segments = pathName.split("/");
-        
-        //segments[1] = locale;
-        //return segments.join("/");
-        if(hash){
+        if(hash.includes("#")){
             return `/${locale}${hash}`
         } else {
-            return `/${locale}`
+            const segments = pathName.split("/");
+            segments[1] = locale;
+            return segments.join("/");
         }
         
     };
