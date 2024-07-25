@@ -19,32 +19,32 @@ export default function Experience({ locale, style, _dir, default_colors, dictio
                     <h2>
                         {dictionary.Main.Experience.freelancer}
                     </h2>
-                    <div className="flex flex-col justify-start gap-1">
+                    <div className="flex flex-col justify-start gap-1" style={{color: default_colors.tsahal_gray}}>
                         <p className="flex flex-wrap gap-[.225em]">
-                            {/*dictionary.Main.Experience.text*/}
-                            <TextAnimation colorOff={default_colors.tsahal_gray} colorOn="white" text={dictionary.Main.Experience.text}/>
+                            {dictionary.Main.Experience.text}
+                            {/*<TextAnimation colorOff={default_colors.tsahal_gray} colorOn="white" text={dictionary.Main.Experience.text}/>*/}
                         </p>
                         <p className="flex flex-wrap gap-[.225em]">
-                            {/*dictionary.Main.Experience.paragraph_1*/}
-                            <TextAnimation colorOff={default_colors.tsahal_gray} colorOn="white" text={dictionary.Main.Experience.paragraph_1}/>
+                            {dictionary.Main.Experience.paragraph_1}
+                            {/*<TextAnimation colorOff={default_colors.tsahal_gray} colorOn="white" text={dictionary.Main.Experience.paragraph_1}/>*/}
                         </p>
                     </div>
                 </aside>
-                <div className="flex flex-col gap-1">
+                <div className="flex flex-col gap-1" style={{color: default_colors.tsahal_gray}}>
                     <p className="flex flex-wrap gap-[.225em]">
                         {/*dictionary.Main.Experience.paragraph_2*/}
                         <TextAnimation colorOff={default_colors.tsahal_gray} colorOn="white" text={dictionary.Main.Experience.paragraph_2}/>
                     </p>
                     <p className="flex flex-wrap gap-[.225em]">
-                        {/*dictionary.Main.Experience.paragraph_3*/}
-                        <TextAnimation colorOff={default_colors.tsahal_gray} colorOn="white" text={dictionary.Main.Experience.paragraph_3}/>
+                        {dictionary.Main.Experience.paragraph_3}
+                        {/*<TextAnimation colorOff={default_colors.tsahal_gray} colorOn="white" text={dictionary.Main.Experience.paragraph_3}/>*/}
                     </p>
                 </div>
             </div>
-            <div className="tecnology flex flex-col items-center justify-start gap-2 w-full">
+            <div className="tecnology flex flex-col items-center justify-start gap-2 w-full" style={{color: default_colors.tsahal_gray}}>
                 <h3>
-                    {/*dictionary.Main.Experience.paragraph_4*/}
-                    <TextAnimation colorOff={default_colors.tsahal_gray} colorOn="white" text={dictionary.Main.Experience.paragraph_4}/>
+                    {dictionary.Main.Experience.paragraph_4}
+                    {/*<TextAnimation colorOff={default_colors.tsahal_gray} colorOn="white" text={dictionary.Main.Experience.paragraph_4}/>*/}
                 </h3>
                 <div className="w-full flex gap-3 justify-center flex-wrap">
                     <Icon style={{color: "#FF6D00"}}>

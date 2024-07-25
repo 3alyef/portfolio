@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&family=Noto+Rashi+Hebrew:wght@100..900&display=swap');
+.noto-rashi-hebrew-hbr {
+    font-family: "Noto Rashi Hebrew", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.alTech {
+    position: relative;
+}
+.logoTech {
+    position: absolute;
+}
+
+.techAnimation {
+    position: absolute;
+    display: flex;
+    //justify-content: flex-start;
+    //align-items: flex-start;
+    width: 225%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    aspect-ratio: 1/1;
+    animation: techAnimation 5s infinite ease;
+}
+
+.techAltoRotate {
+    animation: techAltoRotate 5s infinite ease;
+}
+
+
+@keyframes techAnimation {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes techAltoRotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+

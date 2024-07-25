@@ -1,0 +1,14 @@
+@import "./components/technologyLogo/style.scss";
+@media (max-width: 780px) {
+    .homeSpan {
+        flex-direction: column;
+    }
+    .MeTitle {
+        order: 1
+    }
+    .technologyLogo {
+        order: 0;
+        scale: .75;
+    }
+}
+

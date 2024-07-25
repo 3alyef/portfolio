@@ -55,12 +55,14 @@ export default function About({ locale, style, dictionary, _dir, default_colors,
                 }}/>*/}
             </h1>
             <div className="flex flex-col justify-center items-start w-full gap-[1.5em] min-h-[21em] font-[500]">
-                <div className="flex flex-col justify-center items-start w-full gap-2">
+                <div className="flex flex-col justify-center items-start w-full gap-2" style={{color: default_colors.tsahal_gray}}>
                     <p className="flex flex-wrap gap-[.225em]">
-                        <TextAnimation colorOff={default_colors.tsahal_gray} colorOn="white" text={dictionary.Main.About.paragraph_1}/>
+                        {/*<TextAnimation colorOff={default_colors.tsahal_gray} colorOn="white" text={dictionary.Main.About.paragraph_1}/>*/}
+                        {dictionary.Main.About.paragraph_1}
                     </p>
                     <p className="flex flex-wrap gap-[.225em]">
-                        <TextAnimation colorOff={default_colors.tsahal_gray} colorOn="white" text={dictionary.Main.About.paragraph_2}/>
+                        {/*<TextAnimation colorOff={default_colors.tsahal_gray} colorOn="white" text={dictionary.Main.About.paragraph_2}/>*/}
+                        {dictionary.Main.About.paragraph_2}
                     </p>
                 </div>
             </div>
