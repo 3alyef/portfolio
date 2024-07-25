@@ -6,7 +6,8 @@ import projectsList, { TypeIdProjects } from "./components/projectsList";
 import { GrDeploy } from "react-icons/gr";
 import { RiGitRepositoryCommitsLine } from "react-icons/ri";
 import { FaImages } from "react-icons/fa";
-
+import Icon from "../experience/components/iconsTag";
+import technologiesMap from "./components/technologies";
 export default function Projects({ locale, style, styleDiv, dictionary, default_colors, setProjectName }: PropsSection & {setProjectName: Dispatch<SetStateAction<string>>}) {
     
     const [aboutProject, setAboutProject] = useState(false);
@@ -17,7 +18,8 @@ export default function Projects({ locale, style, styleDiv, dictionary, default_
     const [textAbout, setTextAbout] = useState("");
     const [title, setTitle] = useState("");
     const [deploy, setDeploy] = useState("");
-    const [repository, setRepository] = useState("")
+    const [repository, setRepository] = useState("");
+    const [technologies, setTechnologies] = useState<string[]>([])
     function clickFunction(id: TypeIdProjects) {
         if(id === "none") {
             setAboutProject(false)
@@ -34,6 +36,7 @@ export default function Projects({ locale, style, styleDiv, dictionary, default_
                 setTitle(dictionary.Main.Projects.projectsAbout[id].name)
                 setDeploy(info.deploy)
                 setRepository(info.repository)
+                setTechnologies(info.technologies)
             }
         }
     }
@@ -65,6 +68,13 @@ export default function Projects({ locale, style, styleDiv, dictionary, default_
                             <p className="text-[18px]">
                                 {textAbout}
                             </p>
+                            <div className="w-full flex gap-3 justify-center flex-wrap">
+                                {technologies.map((technology)=>(
+                                    <Icon key={technology}>
+                                        {technologiesMap[technology]}
+                                    </Icon>
+                                ))}
+                            </div>
                         </aside>
                     </div>
                 ): (
@@ -72,12 +82,13 @@ export default function Projects({ locale, style, styleDiv, dictionary, default_
                     <div className="flex flex-col gap-5 justify-center items-center projects-padron">
                         <ProjectComponents alt="al_postel" img="/assets/projectsImgs/al-postel-1.png" name="Chat App" className="animatedProject"
                         classNameSpan="aspect-[1.366/.611]" default_colors={default_colors} clickFunction={clickFunction} />
-                        <ProjectComponents alt="al_postel" img="/assets/projectsImgs/al-postel-1.png" name="Chat App"
+                        {/*<ProjectComponents alt="al_postel" img="/assets/projectsImgs/al-postel-1.png" name="Chat App"
                         className="animatedProject" classNameSpan="aspect-[1.366/.611]"
-                        default_colors={default_colors} clickFunction={clickFunction}/>
+                        default_colors={default_colors} clickFunction={clickFunction}/>*/}
                     </div>
                     <h1 className="h1Projects text-[50px] font-[700]">{dictionary.Main.Projects.projects}</h1>
-                    <div className="flex flex-col gap-5 justify-center items-center projects-padron">
+                    {
+                    /*<div className="flex flex-col gap-5 justify-center items-center projects-padron">
                         <ProjectComponents alt="al_postel" img="/assets/projectsImgs/al-postel-1.png" name="Chat App"
                         className="animatedProject"
                         classNameSpan="aspect-[1.366/.611]"
@@ -86,7 +97,8 @@ export default function Projects({ locale, style, styleDiv, dictionary, default_
                         className="animatedProject"
                         classNameSpan="aspect-[1.366/.611]"
                         default_colors={default_colors} clickFunction={clickFunction}/>
-                    </div>
+                    </div>*/
+                    }
                     </>
                 )}
                 

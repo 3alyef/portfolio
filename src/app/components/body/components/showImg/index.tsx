@@ -5,7 +5,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import Image from "next/image";
 interface PropsShowImg extends default_colors {
     projectName: string;
-    images: string[];
+    images: string[] | undefined;
     setProjectName: Dispatch<SetStateAction<string>>
 }
 
@@ -13,7 +13,7 @@ export default function ShowImg({projectName, default_colors, images, setProject
     const [count, setCount] = useState(0);
     return (
         <div className={`w-full fixed rounded-md flex justify-center items-center`}
-        style={projectName !== "none" ? {
+        style={ images && projectName!== "none" ? {
             width: "100vw",
             height: "100vh",
             zIndex: "50",
@@ -21,30 +21,33 @@ export default function ShowImg({projectName, default_colors, images, setProject
             top: 0,
             left: 0
         } : {width: "0", height:"0"}} onClick={()=>{setProjectName("none")}}>
-            <div className="flex justify-center items-center"
-            onClick={(e) => e.stopPropagation()} >
-                <button className="bottomProjectBody text-[50px]" onClick={()=>setCount((prev)=>{
-                    let newV = prev
-                    if(prev > 0){
-                        newV--
-                    }
-                    return newV
-                })}>
-                    <FaChevronLeft />
-                </button>
-                <div className="relative aspect-[1.366/.611] h-[80vh] cursor-pointer imagesProjectBody">
-                    <Image fill alt={projectName} src={images[count]}/>
+            {images && 
+                <div className="flex justify-center items-center"
+                onClick={(e) => e.stopPropagation()} >
+                    <button className="bottomProjectBody text-[50px]" onClick={()=>setCount((prev)=>{
+                        let newV = prev
+                        if(prev > 0){
+                            newV--
+                        }
+                        return newV
+                    })}>
+                        <FaChevronLeft />
+                    </button>
+                    <div className="relative aspect-[1.366/.611] h-[80vh] cursor-pointer imagesProjectBody">
+                        <Image fill alt={projectName} src={images[count]}/>
+                        
+                    </div>
+                    <button className="bottomProjectBody text-[50px]" onClick={()=>setCount((prev)=>{
+                        let newV = prev
+                        if(prev < images.length - 1){
+                            newV++
+                        }
+                        return newV
+                    })}>
+                        <FaChevronRight />
+                    </button>
                 </div>
-                <button className="bottomProjectBody text-[50px]" onClick={()=>setCount((prev)=>{
-                    let newV = prev
-                    if(prev < images.length){
-                        newV++
-                    }
-                    return newV
-                })}>
-                    <FaChevronRight />
-                </button>
-            </div>
+            }
         </div>
     )
 }

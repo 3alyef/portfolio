@@ -3,7 +3,7 @@ import DefaultBody from "../../defaultBody";
 import Icon from "./components/iconsTag";
 import { FaCss3Alt, FaGitAlt, FaGithub, FaHtml5, FaJava, FaNodeJs, FaReact } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io";
-import { TbBrandTypescript } from "react-icons/tb";
+import { TbBrandSocketIo, TbBrandTypescript } from "react-icons/tb";
 import { RiNextjsFill } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
@@ -68,7 +68,7 @@ export default function Experience({ locale, style, _dir, default_colors, dictio
                     <Icon>
                         <SiExpress />
                     </Icon>
-                    <Icon>
+                    <Icon style={{color: "#00ED64"}}>
                         <BiLogoMongodb />
                     </Icon>
                     <Icon style={{color: "#F4511E"}}>
@@ -76,6 +76,9 @@ export default function Experience({ locale, style, _dir, default_colors, dictio
                     </Icon>
                     <Icon>
                         <FaGithub />
+                    </Icon>
+                    <Icon>
+                        <TbBrandSocketIo />
                     </Icon>
                 </div>
             </div>

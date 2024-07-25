@@ -10,7 +10,7 @@ import ShowImg from "./components/showImg";
 export default function Body({ _dir, default_colors, dictionary, hrefers, locale }: PropsBody) {
     const headerRef = useRef<HTMLAnchorElement>(null);
     
-    const [images, setImages] = useState<string[]>([])
+    const [images, setImages] = useState<string[]>()
     const [projectName, setProjectName] = useState("none");
     useEffect(()=>{
         if(projectName !== "none") {

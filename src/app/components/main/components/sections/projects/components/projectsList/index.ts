@@ -4,7 +4,8 @@ type Project = {
     classNameSpan: string;
     deploy: string;
     repository: string;
-    images: string[]
+    images: string[];
+    technologies: string[]
 };
 
 type ProjectsList = {
@@ -18,7 +19,12 @@ const projectsList: ProjectsList = {
         classNameSpan: "aspect-[1.366/.611]",
         deploy: "https://al-postel.vercel.app",
         repository: "https://github.com/3alyef/al-postel",
-        images: ["/assets/projectsImgs/al-postel-2-phone.png", "/assets/projectsImgs/al-postel-3-phone.png", "/assets/projectsImgs/al-postel-4-phone.png"]
+        images: [
+            "/assets/projectsImgs/al-postel-2-phone.png", 
+            "/assets/projectsImgs/al-postel-3-phone.png", 
+            "/assets/projectsImgs/al-postel-4-phone.png"
+        ],
+        technologies: ["typeScript", "nodejs", "nextjs", "css3", "html5", "mongoDB", "express", "socketIo"]
     }
 }
 
