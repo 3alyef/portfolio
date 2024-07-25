@@ -37,7 +37,6 @@ export default function About({ locale, style, dictionary, _dir, default_colors,
         };
     }, [bodyRef])
 
-    useEffect(()=>{ console.log("bottom", bottom, "left", left)}, [bottom, left])
     return (
         <DefaultBody locale={locale} style={{...style, padding: "7em 0em"}} id="about" className="flex justify-center items-center min-h-[100vh]" ref={bodyRef} styleDiv={styleDiv}> 
             <h1 className="text-[50px] font-[700] w-full text-left" style={{color: default_colors.tsahal_n4, position: "relative"}}>

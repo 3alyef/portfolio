@@ -9,15 +9,31 @@ interface PropsLanguageSwitch {
     locale: keyof typeof languages;
 }
 const LanguageSwitch: React.FC<PropsLanguageSwitch> = ({locale}) => {
+    //
+    const getCurrentHash = () => window.location.hash;
+    const getCurrentPathName = () => window.location.pathname;
+    //
     const [top, setTop] = useState(0);
-    const languageSwitchRef = useRef<HTMLDivElement>(null)
-    const pathName = usePathname();
+    const languageSwitchRef = useRef<HTMLDivElement>(null);
+    //const pathName = usePathname();
     const router = useRouter();
     const redirectedPathName = (locale: string) => {
+        //
+        const pathName = getCurrentPathName();
+        const hash = getCurrentHash();
+        //
+        
         if (!pathName) return "/";
-        const segments = pathName.split("/");
-        segments[1] = locale;
-        return segments.join("/");
+        //const segments = pathName.split("/");
+        
+        //segments[1] = locale;
+        //return segments.join("/");
+        if(hash){
+            return `/${locale}${hash}`
+        } else {
+            return `/${locale}`
+        }
+        
     };
     const [openLangToggle, setOpenLangToggle] = useState<boolean>(false);
     const [maxHeightMenu, setMaxHeightMenu] = useState<string>("0em");
