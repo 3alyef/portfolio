@@ -33,9 +33,17 @@ export type TypeDictionary = {
                     al_postel: {
                         name: string;
                         about: string;
+                        obs: string
                     }
                 }
+            };
+            Contact: {
+                contact: string;
+                text: string
             }
         };
+        Footer: {
+            copy: string
+        }
     }
 }

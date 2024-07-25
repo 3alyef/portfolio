@@ -7,9 +7,10 @@ import { TbBrandSocketIo, TbBrandTypescript } from "react-icons/tb";
 import { RiNextjsFill } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
+import TextAnimation from "../../textAnimation";
 export default function Experience({ locale, style, _dir, default_colors, dictionary, styleDiv }: PropsSection) {
     return (
-        <DefaultBody locale={locale} style={{...style, padding: "7em 0em"}} id="experience" styleDiv={{...styleDiv, gap: "22px"}}>
+        <DefaultBody locale={locale} style={{...style, padding: "7em 0em"}} id="experience" styleDiv={{...styleDiv, gap: "22px"}} className="min-h-[100vh]">
             <h1 className="text-[50px] font-[700] w-full text-left" style={{color: default_colors.tsahal_n4}}>
                 {dictionary.Main.Experience.experience}
             </h1>
@@ -19,26 +20,31 @@ export default function Experience({ locale, style, _dir, default_colors, dictio
                         {dictionary.Main.Experience.freelancer}
                     </h2>
                     <div className="flex flex-col justify-start gap-1">
-                        <p>
-                            {dictionary.Main.Experience.text}
+                        <p className="flex flex-wrap gap-[.225em]">
+                            {/*dictionary.Main.Experience.text*/}
+                            <TextAnimation colorOff={default_colors.tsahal_gray} colorOn="white" text={dictionary.Main.Experience.text}/>
                         </p>
-                        <p>
-                            {dictionary.Main.Experience.paragraph_1}
+                        <p className="flex flex-wrap gap-[.225em]">
+                            {/*dictionary.Main.Experience.paragraph_1*/}
+                            <TextAnimation colorOff={default_colors.tsahal_gray} colorOn="white" text={dictionary.Main.Experience.paragraph_1}/>
                         </p>
                     </div>
                 </aside>
                 <div className="flex flex-col gap-1">
-                    <p>
-                        {dictionary.Main.Experience.paragraph_2}
+                    <p className="flex flex-wrap gap-[.225em]">
+                        {/*dictionary.Main.Experience.paragraph_2*/}
+                        <TextAnimation colorOff={default_colors.tsahal_gray} colorOn="white" text={dictionary.Main.Experience.paragraph_2}/>
                     </p>
-                    <p>
-                        {dictionary.Main.Experience.paragraph_3}
+                    <p className="flex flex-wrap gap-[.225em]">
+                        {/*dictionary.Main.Experience.paragraph_3*/}
+                        <TextAnimation colorOff={default_colors.tsahal_gray} colorOn="white" text={dictionary.Main.Experience.paragraph_3}/>
                     </p>
                 </div>
             </div>
             <div className="tecnology flex flex-col items-center justify-start gap-2 w-full">
                 <h3>
-                    {dictionary.Main.Experience.paragraph_4}
+                    {/*dictionary.Main.Experience.paragraph_4*/}
+                    <TextAnimation colorOff={default_colors.tsahal_gray} colorOn="white" text={dictionary.Main.Experience.paragraph_4}/>
                 </h3>
                 <div className="w-full flex gap-3 justify-center flex-wrap">
                     <Icon style={{color: "#FF6D00"}}>

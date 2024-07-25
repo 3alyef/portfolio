@@ -94,28 +94,6 @@
     letter-spacing: .00625em;
     font-weight: 400;
 }
-/*.select_Language {
-        option {
-            display: flex;
-            background-color: #161E1F;
-            padding: 0.625em;
-            gap: 0.4375em;
-        }
-        width: 100%;
-        color: white;
-        background-color: transparent;
-        padding: 0em .2em;
-        overflow-x: hidden !important;
-        border: none;
-
-        .semiticOption {
-            direction: rtl;
-            text-align: right;
-        }
-    }
-
-    
-    */
 // language flag name
 
 .languageFlag {
@@ -128,4 +106,45 @@
 
 .languageFlagCostumer {
     padding: 0.2em .5em;
+}
+
+@media (max-width: 700px) {
+    .languageNameFull {
+        display: none;
+    }
+    .languageNameSm {
+        display: block !important;
+    }
+    .languagesSubContainer {
+        width: 3em !important;
+    }
+    .languagesMenu {
+        transform: translate(-50%, 0%);
+        left: 50%;
+        //width: 100% !important;
+    }
+    .dropStyle {
+        display: none !important;
+    }
+    
+}
+
+// style ul barra
+
+.contentLanguagesUl::-webkit-scrollbar {
+    width: 6px; /* Largura da barra de rolagem */
+}
+
+.contentLanguagesUl::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Cor de fundo da trilha da barra de rolagem */
+    border-radius: 10px;
+}
+
+.contentLanguagesUl::-webkit-scrollbar-thumb {
+    background: #888; /* Cor da barra de rolagem */
+    border-radius: 10px;
+}
+
+.contentLanguagesUl::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Cor da barra de rolagem ao passar o mouse */
 }

@@ -14,7 +14,7 @@ const DefaultBody = forwardRef<HTMLDivElement, PropsDefaultBody>(
     ({ children, locale, style, id, className, styleDiv }, ref) => {
         return (
             <section 
-                className={`flex flex-col min-h-[100vh] w-full ${className}`}
+                className={`flex flex-col w-full ${className}`}
                 style={style} 
                 id={id} 
                 ref={ref}

@@ -1,31 +1,45 @@
 {
     "Metadata": {
-        "title": ""
+        "title": "Portefølje"
     },
-
     "Header": {
-        "links": ["Hjem", "Om mig", "Erfaring", "Projekter", "Kontakter"]
+        "links": ["Hjem", "Om", "Erfaring", "Projekter", "Kontakt"]
     },
     "Main": {
         "Home": {
             "name": "Alef A. Araujo",
-            "profession": "Web-udvikler"
+            "profession": "Webudvikler"
         },
         "About": {
-            "about_me": "Om mig",
-            "paragraph_1": "I øjeblikket fokuserer på full stack-udvikling.",
-            "paragraph_2": "Mit navn er Alef, og jeg brænder for nye teknologier. Jeg anerkender vigtigheden af ​​teknologier, der allerede er konsolideret på markedet, men jeg giver altid plads til noget nyt. Jeg startede i området i slutningen af ​​2020, hvor jeg studerede det grundlæggende i webudvikling.",
-            "paragraph_3": "Jeg studerer i øjeblikket systemanalyse og udvikling og fokuserer på at udvide mine kompetencer."
+            "about_me": "Om Mig",
+            "paragraph_1": "Hej, jeg er Alef, en full stack udvikler på udkig efter min første professionelle mulighed. Siden slutningen af 2020 har jeg dedikeret mig til webudvikling, altid med en balance mellem respekt for etablerede teknologier og åbenhed overfor innovationer.",
+            "paragraph_2": "I øjeblikket studerer jeg Systemanalyse og -udvikling (ADS), og mit mål er at anvende og udvide mine færdigheder i et udfordrende og innovativt miljø. Jeg er begejstret for at bidrage med min passion for teknologi og mit ønske om at lære i et nyt projekt."
         },
         "Experience": {
             "experience": "Erfaring",
             "freelancer": "Freelancer",
-            "text": "Jeg er en freelance udvikler, der er passioneret omkring teknologi og altid søger kreative og effektive løsninger på forskellige udfordringer. Med konstant fokus på enkelhed og funktionalitet arbejder jeg på at skabe intuitive grænseflader, der giver den bedste brugeroplevelse.",
-            "paragraph_1": "Derudover har jeg erfaring med at udvikle robuste API'er, der sikrer effektiv kommunikation mellem klient-side og database.",
-            "paragraph_2": "Selvom mine tidligere projekter har haft til formål at forbedre mine færdigheder, er jeg begejstret for at anvende min viden i et professionelt miljø og bidrage til innovative og effektive løsninger.",
-            "paragraph_3": "I øjeblikket søger jeg at udvide min professionelle erfaring inden for et udviklingsteam.",
+            "text": "Jeg er en freelancer udvikler, der brænder for teknologi, altid på jagt efter kreative og effektive løsninger på forskellige udfordringer.",
+            "paragraph_1": "Derudover har jeg erfaring med udvikling af API'er og front-end interfaces.",
+            "paragraph_2": "Selvom mine tidligere projekter har været fokuseret på at forbedre mine færdigheder, er jeg ivrig efter at anvende min viden i et professionelt miljø og bidrage til innovative og effektive løsninger.",
+            "paragraph_3": "I øjeblikket søger jeg at udvide min professionelle erfaring i et udviklingsteam.",
             "paragraph_4": "Mine teknologier:"
+        },
+        "Projects": {
+            "projects": "Projekter",
+            "projectsAbout": {
+                "al_postel": {
+                    "name": "Al Postel",
+                    "about": "Et projekt der simulerer WhatsApp Web, sender og modtager beskeder i realtid og gemmer beskeder i en samling i den ikke-relationelle database MongoDB. Applikationen blev oprettet med Node.js i back-end og Next.js i front-end... 2024 - Nu.",
+                    "obs": "Bemærk: Serveren er hostet gratis på Render, så der kan være forsinkelse i login- og registreringsområdet."
+                }
+            }
+        },
+        "Contact": {
+            "contact": "Kontakt",
+            "text": "I øjeblikket søger jeg min første professionelle mulighed i et udviklingsteam. Jeg mener, det er altid tid til at genopfinde sig selv og lære af fejl. Tøv ikke med at kontakte mig gennem mine sociale medier. :)"
         }
-
+    },
+    "Footer": {
+        "copy": "Alle rettigheder forbeholdes"
     }
 }

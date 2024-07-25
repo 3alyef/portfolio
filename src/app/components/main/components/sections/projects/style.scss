@@ -13,3 +13,38 @@
 .btnProject:active {
     background-color: #a1bdc965;
 }
+
+.aboutProject {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+
+.first-div-Project {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2; 
+}
+.aside-Project {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.second-div-Project {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+
+@media (max-width: 1090px) {
+    .first-div-Project {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+    .aside-Project {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2; 
+    }
+    .second-div-Project {
+        grid-column: 1 / 3;
+        grid-row: 3 / 3;
+    }
+}
+

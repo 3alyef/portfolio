@@ -1,30 +1,45 @@
 {
     "Metadata": {
-        "title": ""
+        "title": "Portföy"
     },
     "Header": {
-        "links": ["Anasayfa", "Hakkında", "Deneyim", "Projeler", "İletişim"]
+        "links": ["Ana Sayfa", "Hakkımda", "Deneyim", "Projeler", "İletişim"]
     },
     "Main": {
         "Home": {
             "name": "Alef A. Araujo",
-            "profession": "Web Geliştiricisi"
+            "profession": "Web Geliştirici"
         },
         "About": {
-            "about_me": "Benim hakkımda",
-            "paragraph_1": "Şu anda full stack geliştirmeye odaklanıyor.",
-            "paragraph_2": "Adım Alef ve yeni teknolojilere tutkuyla bağlıyım. Piyasada halihazırda konsolide edilmiş teknolojilerin öneminin farkındayım ancak her zaman yeni bir şeye yer açıyorum. Bu alana 2020'nin sonunda web geliştirmenin temellerini inceleyerek başladım.",
-            "paragraph_3": "Şu anda Sistem Analizi ve Geliştirme okuyorum ve becerilerimi geliştirmeye odaklanıyorum."
+            "about_me": "Hakkımda",
+            "paragraph_1": "Merhaba, ben Alef, ilk profesyonel fırsatımı arayan bir full stack geliştiriciyim. 2020'nin sonlarından itibaren web geliştirmeye kendimi adadım, her zaman köklü teknolojilere saygı gösterme ile yeniliklere açıklık arasında bir denge kurarak.",
+            "paragraph_2": "Şu anda Sistem Analizi ve Geliştirme (ADS) eğitimi alıyorum ve amacım becerilerimi zorlu ve yenilikçi bir ortamda uygulamak ve genişletmek. Teknolojiye olan tutkum ve yeni projelerde öğrenme isteğimle katkıda bulunmak için heyecanlıyım."
         },
         "Experience": {
             "experience": "Deneyim",
             "freelancer": "Serbest Çalışan",
-            "text": "Teknolojiye tutkulu bir serbest geliştiriciyim, çeşitli zorluklar için yaratıcı ve etkili çözümler arıyorum. Basitlik ve işlevselliğe sürekli odaklanarak, en iyi kullanıcı deneyimini sunan sezgisel arayüzler oluşturmak için çalışıyorum.",
-            "paragraph_1": "Ayrıca, istemci tarafı ile veritabanı arasında etkili iletişimi sağlayan sağlam API'ler geliştirme deneyimim var.",
-            "paragraph_2": "Önceki projelerim becerilerimi geliştirmeye yönelikti, ancak bilgi ve deneyimlerimi profesyonel bir ortamda uygulama ve yenilikçi, etkili çözümler sunma konusunda heyecanlıyım.",
-            "paragraph_3": "Şu anda bir geliştirme ekibinde profesyonel deneyimimi genişletmek için fırsatlar arıyorum.",
+            "text": "Teknolojiye tutkulu bir serbest geliştiriciyim, çeşitli zorluklar için yaratıcı ve etkili çözümler arıyorum.",
+            "paragraph_1": "Ayrıca, API'lerin ve ön yüz arayüzlerinin geliştirilmesinde deneyimim var.",
+            "paragraph_2": "Önceki projelerim becerilerimi geliştirmeye yönelikti, ancak bilgimi profesyonel bir ortamda uygulamayı ve yenilikçi ve etkili çözümler üretmeyi dört gözle bekliyorum.",
+            "paragraph_3": "Şu anda bir geliştirme ekibinde profesyonel deneyimimi genişletmek istiyorum.",
             "paragraph_4": "Teknolojilerim:"
+        },
+        "Projects": {
+            "projects": "Projeler",
+            "projectsAbout": {
+                "al_postel": {
+                    "name": "Al Postel",
+                    "about": "WhatsApp Web'i simüle eden, mesajları gerçek zamanlı olarak gönderip alan ve mesajları MongoDB gibi ilişkisiz bir veritabanında koleksiyon olarak saklayan bir proje. Uygulama, arka uçta Node.js ve ön uçta Next.js kullanılarak oluşturulmuştur... 2024 - Günümüz.",
+                    "obs": "Not: Sunucu Render üzerinde ücretsiz olarak barındırılmaktadır, bu nedenle giriş ve kayıt alanında gecikme olabilir."
+                }
+            }
+        },
+        "Contact": {
+            "contact": "İletişim",
+            "text": "Şu anda bir geliştirme ekibinde ilk profesyonel fırsatımı arıyorum. Kendinizi yenilemek ve hatalardan öğrenmek için her zaman bir zaman vardır. Sosyal medya hesaplarım aracılığıyla benimle iletişime geçmekten çekinmeyin. :)"
         }
-
+    },
+    "Footer": {
+        "copy": "Tüm hakları saklıdır"
     }
 }

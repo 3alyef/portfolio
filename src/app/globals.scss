@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "./components/components.scss";
 * {
     margin: 0;
     padding: 0;
@@ -14,12 +15,32 @@
 }
 body {
     color: white;
+    font-size: 18px;
     
 }
 .ltr { direction: ltr }
 .rtl { direction: rtl }
 
-@import "./components/components.scss";
+body::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+}
+
+body::-webkit-scrollbar-track {
+    background: #a1bdc940; /* Cor de fundo da trilha da barra de rolagem */
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #97DCFC; /* Cor da barra de rolagem */
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #8cd5f7; /* Cor da barra de rolagem ao passar o mouse */
+}
+
+
+
 
 //media queries 
 

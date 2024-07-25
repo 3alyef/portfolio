@@ -1,9 +1,9 @@
 {
     "Metadata": {
-        "title": ""
+        "title": "Portfolio"
     },
     "Header": {
-        "links": ["Home", "Chi sono", "Esperienza", "Progetti", "Contatti"]
+        "links": ["Home", "Chi sono", "Esperienza", "Progetti", "Contatto"]
     },
     "Main": {
         "Home": {
@@ -11,20 +11,35 @@
             "profession": "Sviluppatore Web"
         },
         "About": {
-            "about_me": "Su di me",
-            "paragraph_1": "Attualmente, si concentra sullo sviluppo full stack.",
-            "paragraph_2": "Mi chiamo Alef e sono appassionato di nuove tecnologie. Riconosco l'importanza delle tecnologie già consolidate nel mercato, ma do sempre spazio a qualcosa di nuovo. Ho iniziato nell'area alla fine del 2020, studiando i fondamenti dello sviluppo web.",
-            "paragraph_3": "Attualmente sto studiando Analisi e Sviluppo di Sistemi (ASS) e mi sto concentrando sull'ampliamento delle mie competenze."
+            "about_me": "Chi sono",
+            "paragraph_1": "Ciao, sono Alef, uno sviluppatore full stack in cerca della mia prima opportunità professionale. Dalla fine del 2020, mi dedico allo sviluppo web, sempre cercando un equilibrio tra il rispetto per le tecnologie consolidate e l'apertura verso le innovazioni.",
+            "paragraph_2": "Attualmente, sto studiando Analisi e Sviluppo di Sistemi (ADS), e il mio obiettivo è applicare ed espandere le mie competenze in un ambiente stimolante e innovativo. Sono entusiasta di contribuire con la mia passione per la tecnologia e il mio desiderio di apprendere in un nuovo progetto."
         },
         "Experience": {
             "experience": "Esperienza",
             "freelancer": "Freelancer",
-            "text": "Sono uno sviluppatore freelance appassionato di tecnologia, sempre alla ricerca di soluzioni creative ed efficaci per sfide diverse. Con un costante focus sulla semplicità e sulla funzionalità, lavoro per creare interfacce intuitive che offrano la migliore esperienza utente.",
-            "paragraph_1": "Inoltre, ho esperienza nello sviluppo di API robuste che garantiscono una comunicazione efficiente tra il lato client e il database.",
-            "paragraph_2": "Sebbene i miei progetti precedenti siano stati mirati a migliorare le mie competenze, sono entusiasta di applicare la mia conoscenza in un ambiente professionale e contribuire a soluzioni innovative e impattanti.",
-            "paragraph_3": "Attualmente, sono alla ricerca di ampliare la mia esperienza professionale all'interno di un team di sviluppo.",
+            "text": "Sono uno sviluppatore freelance appassionato di tecnologia, sempre alla ricerca di soluzioni creative ed efficaci per diverse sfide.",
+            "paragraph_1": "Inoltre, ho esperienza nello sviluppo di API e interfacce front-end.",
+            "paragraph_2": "Anche se i miei progetti precedenti sono stati focalizzati sul miglioramento delle mie competenze, sono entusiasta di applicare le mie conoscenze in un ambiente professionale e contribuire a soluzioni innovative e impattanti.",
+            "paragraph_3": "Attualmente, sono alla ricerca di opportunità per espandere la mia esperienza professionale in un team di sviluppo.",
             "paragraph_4": "Le mie tecnologie:"
+        },
+        "Projects": {
+            "projects": "Progetti",
+            "projectsAbout": {
+                "al_postel": {
+                    "name": "Al Postel",
+                    "about": "Un progetto che simula WhatsApp Web, inviando e ricevendo messaggi in tempo reale e salvando i messaggi in una collezione nel database non relazionale MongoDB. L'applicazione è stata creata con Node.js per il backend e Next.js per il frontend... 2024 - Presente.",
+                    "obs": "Nota: Il server è ospitato gratuitamente su Render, quindi potrebbe esserci una latenza nell'area di accesso e registrazione."
+                }
+            }
+        },
+        "Contact": {
+            "contact": "Contatto",
+            "text": "Attualmente, sono alla ricerca della mia prima opportunità professionale in un team di sviluppo. Credo che sia sempre il momento di reinventarsi e di imparare dagli errori. Non esitare a metterti in contatto tramite i miei social media. :)"
         }
-
+    },
+    "Footer": {
+        "copy": "Tutti i diritti riservati"
     }
 }

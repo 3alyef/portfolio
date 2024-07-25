@@ -8,4 +8,33 @@
     align-items: center;
     width: 100%;
     transition: top .5s ease;
+    .languageNameSm {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .portfolio-alef-logo {
+        width: 2.5em !important;
+    }
+    .header {
+        nav {
+            a {
+                font-size: 18px !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .portfolio-alef-logo {
+        width: 2em !important;
+    }
+    .header {
+        nav {
+            a {
+                font-size: 16px !important;
+            }
+        }
+    }
 }

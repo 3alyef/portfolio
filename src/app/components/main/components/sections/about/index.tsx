@@ -3,6 +3,7 @@ import { PropsSection } from "@/interfaces/sectionsDefault";
 import DefaultBody from "../../defaultBody";
 import { FaFirstOrderAlt } from "react-icons/fa6";
 import { useEffect, useRef, useState } from "react";
+import TextAnimation from "../../textAnimation";
 
 export default function About({ locale, style, dictionary, _dir, default_colors, styleDiv }: PropsSection) {
     const [left, setLeft] = useState(0);
@@ -38,7 +39,7 @@ export default function About({ locale, style, dictionary, _dir, default_colors,
 
     useEffect(()=>{ console.log("bottom", bottom, "left", left)}, [bottom, left])
     return (
-        <DefaultBody locale={locale} style={{...style, padding: "7em 0em"}} id="about" className="flex justify-center items-center" ref={bodyRef} styleDiv={styleDiv}> 
+        <DefaultBody locale={locale} style={{...style, padding: "7em 0em"}} id="about" className="flex justify-center items-center min-h-[100vh]" ref={bodyRef} styleDiv={styleDiv}> 
             <h1 className="text-[50px] font-[700] w-full text-left" style={{color: default_colors.tsahal_n4, position: "relative"}}>
                 {dictionary.Main.About.about_me} 
                 {/*<FaFirstOrderAlt className="faFirstOrderAltAnimated" style={{color: default_colors.tsahal_n4, left: `${left}%`, bottom: `${bottom}%`}} onClick={()=>{
@@ -53,13 +54,13 @@ export default function About({ locale, style, dictionary, _dir, default_colors,
                     
                 }}/>*/}
             </h1>
-            <div className="flex flex-col justify-center items-start w-full gap-[1.5em] min-h-[21em] text-[20px] font-[500]" style={{color: default_colors.tsahal_gray}}>
+            <div className="flex flex-col justify-center items-start w-full gap-[1.5em] min-h-[21em] font-[500]">
                 <div className="flex flex-col justify-center items-start w-full gap-2">
-                    <p>
-                        {dictionary.Main.About.paragraph_1}
+                    <p className="flex flex-wrap gap-[.225em]">
+                        <TextAnimation colorOff={default_colors.tsahal_gray} colorOn="white" text={dictionary.Main.About.paragraph_1}/>
                     </p>
-                    <p>
-                        {dictionary.Main.About.paragraph_2}
+                    <p className="flex flex-wrap gap-[.225em]">
+                        <TextAnimation colorOff={default_colors.tsahal_gray} colorOn="white" text={dictionary.Main.About.paragraph_2}/>
                     </p>
                 </div>
             </div>

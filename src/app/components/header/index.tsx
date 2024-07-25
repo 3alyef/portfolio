@@ -81,7 +81,7 @@ export default function Header({ locale, _dir, default_colors, headerRef, hrefer
             mouseIn && setMouseIn(false)
             setPreviousMouseIn("in")
         }}>
-            <span style={{position: "relative", width: "3em", aspectRatio: "1/1"}}>
+            <span style={{position: "relative", width: "3em", aspectRatio: "1/1"}} className="portfolio-alef-logo">
                 <Image alt="portfolio-alef-logo" src={"/assets/logo.png"} fill style={{position: "absolute"}}/>
             </span>
             <nav className="flex gap-[1em] justify-center items-center py-[10px]">

@@ -1,6 +1,6 @@
 {
     "Metadata": {
-        "title": ""
+        "title": "Portfólio"
     },
     "Header": {
         "links": ["Início", "Sobre", "Experiência", "Projetos", "Contato"]
@@ -29,7 +29,8 @@
             "projectsAbout": {
                 "al_postel": {
                     "name": "Al Postel",
-                    "about": "Chat em tempo real..."
+                    "about": "Um projeto que simula o WhatsApp Web, enviando e recebendo mensagens em tempo real, além de salvar as mensagens em coleção no banco de dados não relacional MongoDB. A aplicação foi criada com Node.js no back end e Next.js no front end... 2024 - Presente.",
+                    "obs": "Obs: O servidor está hospedado gratuitamente no Render, devido a isso pode haver uma latência na área de login e registro."
                 }
             }
         },
@@ -37,6 +38,8 @@
             "contact": "Contato",
             "text": "Atualmente, estou em busca da minha primeira oportunidade profissional em uma equipe de desenvolvimento. Acredito que sempre é tempo de se reinventar e aprender com os erros. Fique à vontade para entrar em contato através das minhas redes sociais. :)"
         }
-
+    },
+    "Footer": {
+        "copy": "Todos os direitos reservados"
     }
 }

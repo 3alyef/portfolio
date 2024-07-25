@@ -1,9 +1,9 @@
 {
     "Metadata": {
-        "title": ""
+        "title": "Portfolio"
     },
     "Header": {
-        "links": ["Accueil", "À propos", "Expérience", "Projets", "Contacts"]
+        "links": ["Accueil", "À propos", "Expérience", "Projets", "Contact"]
     },
     "Main": {
         "Home": {
@@ -11,20 +11,35 @@
             "profession": "Développeur Web"
         },
         "About": {
-            "about_me": "Sur moi",
-            "paragraph_1": "Actuellement, se concentre sur le développement full stack.",
-            "paragraph_2": "Je m'appelle Alef et je suis passionné par les nouvelles technologies. Je reconnais l'importance des technologies déjà consolidées sur le marché, mais je laisse toujours de la place à quelque chose de nouveau. J'ai débuté dans le domaine fin 2020, en étudiant les fondamentaux du développement web.",
-            "paragraph_3": "J'étudie actuellement l'analyse et le développement de systèmes (ADS) et je me concentre sur l'élargissement de mes compétences."
+            "about_me": "À propos de moi",
+            "paragraph_1": "Bonjour, je suis Alef, un développeur full stack à la recherche de ma première opportunité professionnelle. Depuis la fin de 2020, je me consacre au développement web, toujours avec un équilibre entre le respect des technologies établies et l'ouverture aux innovations.",
+            "paragraph_2": "Actuellement, je suis en train d'étudier l'Analyse et le Développement de Systèmes (ADS), et mon objectif est d'appliquer et d'élargir mes compétences dans un environnement stimulant et innovant. Je suis enthousiaste à l'idée de contribuer avec ma passion pour la technologie et mon désir d'apprendre dans un nouveau projet."
         },
         "Experience": {
             "experience": "Expérience",
             "freelancer": "Freelance",
-            "text": "Je suis un développeur freelance passionné par la technologie, toujours à la recherche de solutions créatives et efficaces pour divers défis. Avec un focus constant sur la simplicité et la fonctionnalité, je travaille à créer des interfaces intuitives qui offrent la meilleure expérience utilisateur.",
-            "paragraph_1": "De plus, j'ai de l'expérience dans le développement d'API robustes qui assurent une communication efficace entre le client et la base de données.",
-            "paragraph_2": "Bien que mes projets précédents aient été axés sur l'amélioration de mes compétences, je suis enthousiaste à l'idée d'appliquer mes connaissances dans un environnement professionnel et de contribuer à des solutions innovantes et impactantes.",
-            "paragraph_3": "Actuellement, je cherche à étendre mon expérience professionnelle au sein d'une équipe de développement.",
+            "text": "Je suis un développeur freelance passionné par la technologie, toujours à la recherche de solutions créatives et efficaces pour divers défis.",
+            "paragraph_1": "De plus, j'ai de l'expérience dans le développement d'APIs et d'interfaces front-end.",
+            "paragraph_2": "Bien que mes projets précédents aient été axés sur l'amélioration de mes compétences, je suis impatient d'appliquer mes connaissances dans un environnement professionnel et de contribuer à des solutions innovantes et impactantes.",
+            "paragraph_3": "Actuellement, je cherche à élargir mon expérience professionnelle au sein d'une équipe de développement.",
             "paragraph_4": "Mes technologies :"
+        },
+        "Projects": {
+            "projects": "Projets",
+            "projectsAbout": {
+                "al_postel": {
+                    "name": "Al Postel",
+                    "about": "Un projet qui simule WhatsApp Web, envoyant et recevant des messages en temps réel, et enregistrant les messages dans une collection dans la base de données non relationnelle MongoDB. L'application a été créée avec Node.js pour le backend et Next.js pour le frontend... 2024 - Présent.",
+                    "obs": "Note : Le serveur est hébergé gratuitement sur Render, donc il peut y avoir une latence dans la zone de connexion et d'inscription."
+                }
+            }
+        },
+        "Contact": {
+            "contact": "Contact",
+            "text": "Actuellement, je suis à la recherche de ma première opportunité professionnelle au sein d'une équipe de développement. Je crois qu'il est toujours temps de se réinventer et d'apprendre de ses erreurs. N'hésitez pas à me contacter via mes réseaux sociaux. :)"
         }
-
+    },
+    "Footer": {
+        "copy": "Tous droits réservés"
     }
 }

@@ -59,13 +59,15 @@ const LanguageSwitch: React.FC<PropsLanguageSwitch> = ({locale}) => {
                 
                 <div className="parentLanguagesMenu" style={{width: widthVar}}>
                     <div className="languagesMenu menuApparence" style={{maxHeight: maxHeightMenu, top: `${top}px` }}  >
-                        <ul  style={{ maxHeight: maxHeightMenu, opacity: (maxHeightMenu != "0em" ? "1": "0")}}>
+                        <ul  style={{ maxHeight: maxHeightMenu, opacity: (maxHeightMenu != "0em" ? "1": "0")}} className="contentLanguagesUl">
                             {
                                 Object.entries(languages).map(([key, value]) => key === locale && (
                                     <li key={key}
                                     className="liSelect"
                                     >
-                                        <LanguageFlagName languageName={value[0]} flag={value[1]} costumerClass="languageFlagCostumer"/>
+                                        <LanguageFlagName languageName={value[1]}
+                                        languageNameFull={value[0]}
+                                        flag={value[2]} costumerClass="languageFlagCostumer"/>
                                         
                                     </li>
                                 ) 
@@ -80,7 +82,7 @@ const LanguageSwitch: React.FC<PropsLanguageSwitch> = ({locale}) => {
                                                 router.push(newPath)
                                             }   
                                         }>
-                                            <LanguageFlagName languageName={value[0]} flag={value[1]} costumerClass="languageFlagCostumer"/>
+                                            <LanguageFlagName languageName={value[1]} languageNameFull={value[0]} flag={value[2]} costumerClass="languageFlagCostumer"/>
                                             
                                         </li>
                                     ) 
@@ -91,7 +93,7 @@ const LanguageSwitch: React.FC<PropsLanguageSwitch> = ({locale}) => {
                     </div>
                 </div>
                 <div className="languageSwitch" ref={languageSwitchRef}>         
-                    <LanguageFlagName languageName={languages[locale][0]} flag={languages[locale][1]}/>
+                    <LanguageFlagName languageName={languages[locale][1]} flag={languages[locale][2]} languageNameFull={languages[locale][0]}/>
                     {openLangToggle ? (
                         <IoMdArrowDropup className="dropStyle"/>
                     ): (
