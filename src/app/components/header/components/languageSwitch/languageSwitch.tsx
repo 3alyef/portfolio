@@ -24,11 +24,14 @@ const LanguageSwitch: React.FC<PropsLanguageSwitch> = ({locale}) => {
         
         if (!pathName) return "/";
         if(hash.includes("#")){
-            return `/${locale}${hash}`
+            const segments = pathName.split("/");
+            //console.log("link: ", `/${locale}${hash}`)
+            segments[1] = `${locale}${hash}`;
+            router.push(segments.join("/"));
         } else {
             const segments = pathName.split("/");
             segments[1] = locale;
-            return segments.join("/");
+            router.push(segments.join("/"));
         }
         
     };
@@ -90,10 +93,11 @@ const LanguageSwitch: React.FC<PropsLanguageSwitch> = ({locale}) => {
                                 
                                 Object.entries(languages).map(([key, value]) => key != locale && (
                                         <li key={key} onClick={()=>{
-                                                const newPath = redirectedPathName(key);
-                                                //localStorage.setItem("languagePadron", key)
-                                                router.push(newPath)
-                                            }   
+                                            setTimeout(() => {
+                                                redirectedPathName(key);
+                                            }, 100); 
+                                            
+                                        }   
                                         }>
                                             <LanguageFlagName languageName={value[1]} languageNameFull={value[0]} flag={value[2]} costumerClass="languageFlagCostumer"/>
                                             
