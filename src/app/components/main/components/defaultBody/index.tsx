@@ -1,7 +1,7 @@
 "use client"
 import React, { forwardRef } from 'react';
 import { Locale } from "@/i18n";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 interface PropsDefaultBody {
     children: React.ReactNode;
     locale: Locale;
@@ -37,7 +37,7 @@ const DefaultBody = forwardRef<HTMLDivElement, PropsDefaultBody>(
                 ref={ref}
                 onMouseEnter={handleMouseEnter}
             >
-                <div className="flex flex-col items-start justify-center" style={styleDiv}>{children}</div>
+                <div className="flex flex-col items-start justify-center divDefaultBody" style={styleDiv}>{children}</div>
             </section>
         );
     }

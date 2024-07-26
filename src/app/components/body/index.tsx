@@ -20,6 +20,31 @@ export default function Body({ _dir, default_colors, dictionary, hrefers, locale
             }
         }
     }, [projectName])
+    useEffect(()=>{
+        const startSystem = async () => {
+            try {
+                let body = JSON.stringify({ data: new Date() });
+                const response = await fetch(`${process.env.NEXT_PUBLIC_M1_URL}/startSystem`, {
+                    method: "POST",
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: body
+                });
+            
+                if (!response.ok) {
+                    throw new Error(`Error: ${response.statusText}`);
+                }
+            
+                const data = await response.json();
+                // console.log(data.msg);
+                } catch (error) {
+                    console.error('There was an error!', error);
+                }
+        };
+        
+        startSystem();
+    }, [])
     return (
         <body className={_dir}>
             <Header locale={locale} _dir={_dir} default_colors={default_colors} headerRef={headerRef} dictionary={dictionary} hrefers={hrefers}/>
