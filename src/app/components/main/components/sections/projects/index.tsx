@@ -94,18 +94,18 @@ export default function Projects({ locale, style, styleDiv, dictionary, default_
                         default_colors={default_colors} clickFunction={clickFunction}/>*/}
                     </div>
                     
-                    {
-                    /*<div className="flex flex-col gap-5 justify-center items-center projects-padron">
-                        <ProjectComponents alt="al_postel" img="/assets/projectsImgs/al-postel-1.png" name="Chat App"
+                    <div className="flex flex-col gap-5 justify-center items-center projects-padron">
+                        <ProjectComponents alt="al_postel_api" img="/assets/projectsImgs/alpostel-api-1.png" name="Chat App API"
                         className="animatedProject"
                         classNameSpan="aspect-[1.366/.611]"
                         default_colors={default_colors} clickFunction={clickFunction}/>
-                        <ProjectComponents alt="al_postel" img="/assets/projectsImgs/al-postel-1.png" name="Chat App"
+                        
+                        {/*<ProjectComponents alt="al_postel" img="/assets/projectsImgs/al-postel-1.png" name="Chat App"
                         className="animatedProject"
                         classNameSpan="aspect-[1.366/.611]"
-                        default_colors={default_colors} clickFunction={clickFunction}/>
-                    </div>*/
-                    }
+                        default_colors={default_colors} clickFunction={clickFunction}/>*/}
+                    </div>
+                    
                     </>
                 )}
                 

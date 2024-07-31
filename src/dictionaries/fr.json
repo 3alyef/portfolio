@@ -12,15 +12,15 @@
         },
         "About": {
             "about_me": "À propos de moi",
-            "paragraph_1": "Bonjour, je suis Alef, un développeur full stack à la recherche de ma première opportunité professionnelle. Depuis la fin de 2020, je me consacre au développement web, toujours avec un équilibre entre le respect des technologies établies et l'ouverture aux innovations.",
-            "paragraph_2": "Actuellement, je suis en train d'étudier l'Analyse et le Développement de Systèmes (ADS), et mon objectif est d'appliquer et d'élargir mes compétences dans un environnement stimulant et innovant. Je suis enthousiaste à l'idée de contribuer avec ma passion pour la technologie et mon désir d'apprendre dans un nouveau projet."
+            "paragraph_1": "Bonjour, je suis Alef, un développeur full stack à la recherche de ma première opportunité professionnelle. Depuis fin 2020, je me consacre au développement web, en équilibrant toujours le respect des technologies établies avec l'ouverture aux innovations.",
+            "paragraph_2": "Actuellement, j'étudie l'Analyse et le Développement des Systèmes (ADS), et mon objectif est d'appliquer et d'élargir mes compétences dans un environnement stimulant et innovant. Je suis enthousiaste à l'idée de contribuer avec ma passion pour la technologie et mon désir d'apprendre dans un nouveau projet."
         },
         "Experience": {
             "experience": "Expérience",
-            "freelancer": "Freelance",
+            "freelancer": "Freelancer",
             "text": "Je suis un développeur freelance passionné par la technologie, toujours à la recherche de solutions créatives et efficaces pour divers défis.",
-            "paragraph_1": "De plus, j'ai de l'expérience dans le développement d'APIs et d'interfaces front-end.",
-            "paragraph_2": "Bien que mes projets précédents aient été axés sur l'amélioration de mes compétences, je suis impatient d'appliquer mes connaissances dans un environnement professionnel et de contribuer à des solutions innovantes et impactantes.",
+            "paragraph_1": "De plus, j'ai de l'expérience dans le développement d'API et dans la création d'interfaces utilisateur front-end.",
+            "paragraph_2": "Bien que mes projets précédents se soient concentrés sur l'amélioration de mes compétences, je suis impatient d'appliquer mes connaissances dans un environnement professionnel et de contribuer à des solutions innovantes et efficaces.",
             "paragraph_3": "Actuellement, je cherche à élargir mon expérience professionnelle au sein d'une équipe de développement.",
             "paragraph_4": "Mes technologies :"
         },
@@ -29,14 +29,19 @@
             "projectsAbout": {
                 "al_postel": {
                     "name": "Al Postel",
-                    "about": "Un projet qui simule WhatsApp Web, envoyant et recevant des messages en temps réel, et enregistrant les messages dans une collection dans la base de données non relationnelle MongoDB. L'application a été créée avec Node.js pour le backend et Next.js pour le frontend... 2024 - Présent.",
-                    "obs": "Note : Le serveur est hébergé gratuitement sur Render, donc il peut y avoir une latence dans la zone de connexion et d'inscription."
+                    "about": "Un projet qui simule WhatsApp Web, envoyant et recevant des messages en temps réel et stockant les messages dans une collection dans la base de données non relationnelle MongoDB. L'application a été créée avec Node.js côté serveur et Next.js côté client... 2024 - Présent.",
+                    "obs": "Remarque : Le serveur est hébergé gratuitement sur Render, donc il peut y avoir une latence dans la zone de connexion et d'inscription."
+                },
+                "al_postel_api": {
+                    "name": "Al Postel API",
+                    "about": "Une API RESTful développée en TypeScript utilisant Express et Socket.IO. Cette API fournit une série de points de terminaison pour gérer les données et interagir avec une application front-end, qui à son tour gère une application de messagerie.",
+                    "obs": ""
                 }
             }
         },
         "Contact": {
             "contact": "Contact",
-            "text": "Actuellement, je suis à la recherche de ma première opportunité professionnelle au sein d'une équipe de développement. Je crois qu'il est toujours temps de se réinventer et d'apprendre de ses erreurs. N'hésitez pas à me contacter via mes réseaux sociaux. :)"
+            "text": "Actuellement, je cherche ma première opportunité professionnelle au sein d'une équipe de développement. Je pense qu'il est toujours temps de se réinventer et d'apprendre de ses erreurs. N'hésitez pas à me contacter via mes réseaux sociaux. :)"
         }
     },
     "Footer": {

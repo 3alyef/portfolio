@@ -12,16 +12,16 @@
         },
         "About": {
             "about_me": "Chi sono",
-            "paragraph_1": "Ciao, sono Alef, uno sviluppatore full stack in cerca della mia prima opportunità professionale. Dalla fine del 2020, mi dedico allo sviluppo web, sempre cercando un equilibrio tra il rispetto per le tecnologie consolidate e l'apertura verso le innovazioni.",
-            "paragraph_2": "Attualmente, sto studiando Analisi e Sviluppo di Sistemi (ADS), e il mio obiettivo è applicare ed espandere le mie competenze in un ambiente stimolante e innovativo. Sono entusiasta di contribuire con la mia passione per la tecnologia e il mio desiderio di apprendere in un nuovo progetto."
+            "paragraph_1": "Ciao, sono Alef, uno sviluppatore full stack alla ricerca della mia prima opportunità professionale. Dalla fine del 2020, mi sono dedicato allo sviluppo web, bilanciando sempre il rispetto per le tecnologie consolidate con l'apertura alle innovazioni.",
+            "paragraph_2": "Attualmente, sto studiando Analisi e Sviluppo dei Sistemi (ADS), e il mio obiettivo è applicare e ampliare le mie competenze in un ambiente stimolante e innovativo. Sono entusiasta di contribuire con la mia passione per la tecnologia e il mio desiderio di apprendere in un nuovo progetto."
         },
         "Experience": {
             "experience": "Esperienza",
             "freelancer": "Freelancer",
             "text": "Sono uno sviluppatore freelance appassionato di tecnologia, sempre alla ricerca di soluzioni creative ed efficaci per diverse sfide.",
-            "paragraph_1": "Inoltre, ho esperienza nello sviluppo di API e interfacce front-end.",
-            "paragraph_2": "Anche se i miei progetti precedenti sono stati focalizzati sul miglioramento delle mie competenze, sono entusiasta di applicare le mie conoscenze in un ambiente professionale e contribuire a soluzioni innovative e impattanti.",
-            "paragraph_3": "Attualmente, sono alla ricerca di opportunità per espandere la mia esperienza professionale in un team di sviluppo.",
+            "paragraph_1": "Inoltre, ho esperienza nello sviluppo di API e nella creazione di interfacce utente front-end.",
+            "paragraph_2": "Anche se i miei progetti precedenti si sono concentrati sul miglioramento delle mie competenze, sono ansioso di applicare le mie conoscenze in un ambiente professionale e contribuire a soluzioni innovative ed efficaci.",
+            "paragraph_3": "Attualmente, sto cercando di espandere la mia esperienza professionale in un team di sviluppo.",
             "paragraph_4": "Le mie tecnologie:"
         },
         "Projects": {
@@ -29,14 +29,19 @@
             "projectsAbout": {
                 "al_postel": {
                     "name": "Al Postel",
-                    "about": "Un progetto che simula WhatsApp Web, inviando e ricevendo messaggi in tempo reale e salvando i messaggi in una collezione nel database non relazionale MongoDB. L'applicazione è stata creata con Node.js per il backend e Next.js per il frontend... 2024 - Presente.",
-                    "obs": "Nota: Il server è ospitato gratuitamente su Render, quindi potrebbe esserci una latenza nell'area di accesso e registrazione."
+                    "about": "Un progetto che simula WhatsApp Web, inviando e ricevendo messaggi in tempo reale e memorizzando i messaggi in una collezione nel database non relazionale MongoDB. L'applicazione è stata creata con Node.js nel backend e Next.js nel frontend... 2024 - Presente.",
+                    "obs": "Nota: Il server è ospitato gratuitamente su Render, quindi potrebbe esserci latenza nell'area di login e registrazione."
+                },
+                "al_postel_api": {
+                    "name": "Al Postel API",
+                    "about": "Un'API RESTful sviluppata in TypeScript utilizzando Express e Socket.IO. Questa API fornisce una serie di endpoint per gestire i dati e interagire con un'applicazione front-end, che a sua volta gestisce un'applicazione di messaggistica.",
+                    "obs": ""
                 }
             }
         },
         "Contact": {
             "contact": "Contatto",
-            "text": "Attualmente, sono alla ricerca della mia prima opportunità professionale in un team di sviluppo. Credo che sia sempre il momento di reinventarsi e di imparare dagli errori. Non esitare a metterti in contatto tramite i miei social media. :)"
+            "text": "Attualmente, sto cercando la mia prima opportunità professionale in un team di sviluppo. Credo che sia sempre il momento di reinventarsi e imparare dagli errori. Non esitare a contattarmi tramite i miei social media. :)"
         }
     },
     "Footer": {

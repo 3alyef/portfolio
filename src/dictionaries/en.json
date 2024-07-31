@@ -31,6 +31,11 @@
                     "name": "Al Postel",
                     "about": "A project that simulates WhatsApp Web, sending and receiving messages in real time, and saving messages in a collection in the non-relational database MongoDB. The application was created with Node.js in the back end and Next.js in the front end... 2024 - Present.",
                     "obs": "Note: The server is hosted for free on Render, so there may be latency in the login and registration area."
+                },
+                "al_postel_api": {
+                    "name": "Al Postel API",
+                    "about": "A RESTful API developed in TypeScript using Express and Socket.IO. This API provides a series of endpoints to manage data and interact with a front-end application, which, in turn, manages a messaging application.",
+                    "obs": ""
                 }
             }
         },

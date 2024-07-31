@@ -25,10 +25,22 @@ const projectsList: ProjectsList = {
             "/assets/projectsImgs/al-postel-4-phone.png"
         ],
         technologies: ["typeScript", "nodejs", "nextjs", "css3", "html5", "mongoDB", "express", "socketIo"]
+    },
+    al_postel_api: {
+        img: "/assets/projectsImgs/alpostel-api-1.png",
+        name: "Chat App",
+        classNameSpan: "aspect-[1.366/.611]",
+        deploy: "https://al-postel-m2.onrender.com/",
+        repository: "https://github.com/3alyef/al-postEl-api-m2",
+        images: [
+            "/assets/projectsImgs/alpostel-api-2.png", 
+            "/assets/projectsImgs/alpostel-api-3.png", 
+        ],
+        technologies: ["typeScript", "nodejs", "css3", "html5", "mongoDB", "express", "socketIo"]
     }
 }
 
 
-export type TypeIdProjects = "al_postel" | "none"
+export type TypeIdProjects = "al_postel" | "al_postel_api" | "none"
 
 export default projectsList;

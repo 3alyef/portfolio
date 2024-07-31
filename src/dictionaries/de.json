@@ -3,7 +3,7 @@
         "title": "Portfolio"
     },
     "Header": {
-        "links": ["Startseite", "Über", "Erfahrung", "Projekte", "Kontakt"]
+        "links": ["Startseite", "Über mich", "Erfahrung", "Projekte", "Kontakt"]
     },
     "Main": {
         "Home": {
@@ -12,15 +12,15 @@
         },
         "About": {
             "about_me": "Über mich",
-            "paragraph_1": "Hallo, ich bin Alef, ein Full-Stack-Entwickler auf der Suche nach meiner ersten beruflichen Gelegenheit. Seit Ende 2020 widme ich mich der Webentwicklung und strebe stets ein Gleichgewicht zwischen der Achtung bewährter Technologien und der Offenheit für Innovationen an.",
-            "paragraph_2": "Derzeit studiere ich Systemanalyse und -entwicklung (ADS) und mein Ziel ist es, meine Fähigkeiten in einem herausfordernden und innovativen Umfeld anzuwenden und auszubauen. Ich freue mich darauf, mit meiner Leidenschaft für Technologie und meinem Wunsch zu lernen, in einem neuen Projekt beizutragen."
+            "paragraph_1": "Hallo, ich bin Alef, ein Full-Stack-Entwickler, der seine erste berufliche Gelegenheit sucht. Seit Ende 2020 widme ich mich der Webentwicklung und balanciere dabei immer den Respekt für etablierte Technologien mit Offenheit für Innovationen.",
+            "paragraph_2": "Derzeit studiere ich Systemanalyse und -entwicklung (ADS), und mein Ziel ist es, meine Fähigkeiten in einem herausfordernden und innovativen Umfeld anzuwenden und auszubauen. Ich freue mich darauf, mit meiner Leidenschaft für Technologie und meinem Wunsch zu lernen, zu einem neuen Projekt beizutragen."
         },
         "Experience": {
             "experience": "Erfahrung",
-            "freelancer": "Freiberufler",
+            "freelancer": "Freelancer",
             "text": "Ich bin ein freiberuflicher Entwickler, der leidenschaftlich an Technologie interessiert ist und immer nach kreativen und effektiven Lösungen für verschiedene Herausforderungen sucht.",
-            "paragraph_1": "Darüber hinaus habe ich Erfahrung in der Entwicklung von APIs und Front-End-Oberflächen.",
-            "paragraph_2": "Obwohl meine bisherigen Projekte darauf ausgerichtet waren, meine Fähigkeiten zu verbessern, bin ich gespannt darauf, mein Wissen in einem professionellen Umfeld anzuwenden und zu innovativen und wirkungsvollen Lösungen beizutragen.",
+            "paragraph_1": "Zusätzlich habe ich Erfahrung in der Entwicklung von APIs und Front-End-Schnittstellen.",
+            "paragraph_2": "Obwohl meine bisherigen Projekte darauf abzielten, meine Fähigkeiten zu verbessern, bin ich darauf bedacht, mein Wissen in einem professionellen Umfeld anzuwenden und zu innovativen und wirkungsvollen Lösungen beizutragen.",
             "paragraph_3": "Derzeit suche ich nach Möglichkeiten, meine berufliche Erfahrung in einem Entwicklungsteam zu erweitern.",
             "paragraph_4": "Meine Technologien:"
         },
@@ -31,12 +31,17 @@
                     "name": "Al Postel",
                     "about": "Ein Projekt, das WhatsApp Web simuliert, Nachrichten in Echtzeit sendet und empfängt und Nachrichten in einer Sammlung in der nicht-relationalen Datenbank MongoDB speichert. Die Anwendung wurde mit Node.js im Backend und Next.js im Frontend erstellt... 2024 - Gegenwart.",
                     "obs": "Hinweis: Der Server wird kostenlos auf Render gehostet, daher kann es zu Verzögerungen im Anmelde- und Registrierungsbereich kommen."
+                },
+                "al_postel_api": {
+                    "name": "Al Postel API",
+                    "about": "Eine RESTful API, die in TypeScript mit Express und Socket.IO entwickelt wurde. Diese API bietet eine Reihe von Endpunkten zur Verwaltung von Daten und zur Interaktion mit einer Front-End-Anwendung, die wiederum eine Messaging-Anwendung verwaltet.",
+                    "obs": ""
                 }
             }
         },
         "Contact": {
             "contact": "Kontakt",
-            "text": "Derzeit suche ich nach meiner ersten beruflichen Gelegenheit in einem Entwicklungsteam. Ich glaube, dass es immer Zeit ist, sich neu zu erfinden und aus Fehlern zu lernen. Zögern Sie nicht, mich über meine sozialen Medien zu kontaktieren. :)"
+            "text": "Derzeit suche ich nach meiner ersten beruflichen Gelegenheit in einem Entwicklungsteam. Ich glaube, es ist immer Zeit, sich neu zu erfinden und aus Fehlern zu lernen. Zögern Sie nicht, über meine sozialen Medien Kontakt aufzunehmen. :)"
         }
     },
     "Footer": {

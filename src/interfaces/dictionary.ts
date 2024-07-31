@@ -35,6 +35,11 @@ export type TypeDictionary = {
                         about: string;
                         obs: string
                     }
+                    al_postel_api: {
+                        name: string;
+                        about: string;
+                        obs: string
+                    }
                 }
             };
             Contact: {

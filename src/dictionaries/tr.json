@@ -3,7 +3,7 @@
         "title": "Portföy"
     },
     "Header": {
-        "links": ["Ana Sayfa", "Hakkımda", "Deneyim", "Projeler", "İletişim"]
+        "links": ["Ana Sayfa", "Hakkında", "Deneyim", "Projeler", "İletişim"]
     },
     "Main": {
         "Home": {
@@ -11,32 +11,37 @@
             "profession": "Web Geliştirici"
         },
         "About": {
-            "about_me": "Hakkımda",
-            "paragraph_1": "Merhaba, ben Alef, ilk profesyonel fırsatımı arayan bir full stack geliştiriciyim. 2020'nin sonlarından itibaren web geliştirmeye kendimi adadım, her zaman köklü teknolojilere saygı gösterme ile yeniliklere açıklık arasında bir denge kurarak.",
-            "paragraph_2": "Şu anda Sistem Analizi ve Geliştirme (ADS) eğitimi alıyorum ve amacım becerilerimi zorlu ve yenilikçi bir ortamda uygulamak ve genişletmek. Teknolojiye olan tutkum ve yeni projelerde öğrenme isteğimle katkıda bulunmak için heyecanlıyım."
+            "about_me": "Hakkında",
+            "paragraph_1": "Merhaba, ben Alef, ilk profesyonel fırsatımı arayan bir full stack geliştiricisiyim. 2020 sonlarından itibaren web geliştirme üzerine yoğunlaştım, her zaman köklü teknolojilere saygı gösterirken yeniliklere açık oldum.",
+            "paragraph_2": "Şu anda Sistem Analizi ve Geliştirme (ADS) eğitimi alıyorum ve amacım becerilerimi zorlu ve yenilikçi bir ortamda uygulayıp genişletmek. Teknolojiye olan tutkum ve yeni bir projede öğrenme arzumla katkıda bulunmak için heyecanlıyım."
         },
         "Experience": {
             "experience": "Deneyim",
-            "freelancer": "Serbest Çalışan",
-            "text": "Teknolojiye tutkulu bir serbest geliştiriciyim, çeşitli zorluklar için yaratıcı ve etkili çözümler arıyorum.",
-            "paragraph_1": "Ayrıca, API'lerin ve ön yüz arayüzlerinin geliştirilmesinde deneyimim var.",
-            "paragraph_2": "Önceki projelerim becerilerimi geliştirmeye yönelikti, ancak bilgimi profesyonel bir ortamda uygulamayı ve yenilikçi ve etkili çözümler üretmeyi dört gözle bekliyorum.",
+            "freelancer": "Freelancer",
+            "text": "Teknolojiye tutkulu bir freelancer geliştiricisiyim, çeşitli zorluklar için yaratıcı ve etkili çözümler arıyorum.",
+            "paragraph_1": "Ayrıca, API geliştirme ve front-end arayüzleri konusunda deneyimim var.",
+            "paragraph_2": "Önceki projelerim becerilerimi geliştirmeye yönelikti, ancak bilgi ve deneyimlerimi profesyonel bir ortamda uygulayıp yenilikçi ve etkili çözümler üretmek için sabırsızlanıyorum.",
             "paragraph_3": "Şu anda bir geliştirme ekibinde profesyonel deneyimimi genişletmek istiyorum.",
-            "paragraph_4": "Teknolojilerim:"
+            "paragraph_4": "Kullandığım teknolojiler:"
         },
         "Projects": {
             "projects": "Projeler",
             "projectsAbout": {
                 "al_postel": {
                     "name": "Al Postel",
-                    "about": "WhatsApp Web'i simüle eden, mesajları gerçek zamanlı olarak gönderip alan ve mesajları MongoDB gibi ilişkisiz bir veritabanında koleksiyon olarak saklayan bir proje. Uygulama, arka uçta Node.js ve ön uçta Next.js kullanılarak oluşturulmuştur... 2024 - Günümüz.",
-                    "obs": "Not: Sunucu Render üzerinde ücretsiz olarak barındırılmaktadır, bu nedenle giriş ve kayıt alanında gecikme olabilir."
+                    "about": "WhatsApp Web'i simüle eden bir proje, gerçek zamanlı mesaj gönderme ve alma işlemlerini yapar ve mesajları ilişkisel olmayan MongoDB veritabanında bir koleksiyona kaydeder. Uygulama, backend'de Node.js ve frontend'de Next.js ile oluşturulmuştur... 2024 - Günümüz.",
+                    "obs": "Not: Sunucu Render'da ücretsiz olarak barındırılmaktadır, bu nedenle giriş ve kayıt bölümlerinde gecikmeler olabilir."
+                },
+                "al_postel_api": {
+                    "name": "Al Postel API",
+                    "about": "Express ve Socket.IO kullanılarak TypeScript'te geliştirilmiş bir RESTful API. Bu API, verileri yönetmek ve bir front-end uygulamasıyla etkileşimde bulunmak için bir dizi uç nokta sağlar; bu uygulama, mesajlaşma uygulamasını yönetir.",
+                    "obs": ""
                 }
             }
         },
         "Contact": {
             "contact": "İletişim",
-            "text": "Şu anda bir geliştirme ekibinde ilk profesyonel fırsatımı arıyorum. Kendinizi yenilemek ve hatalardan öğrenmek için her zaman bir zaman vardır. Sosyal medya hesaplarım aracılığıyla benimle iletişime geçmekten çekinmeyin. :)"
+            "text": "Şu anda bir geliştirme ekibinde ilk profesyonel fırsatımı arıyorum. Kendinizi yeniden yaratmak ve hatalardan öğrenmek için her zaman bir zaman vardır. Sosyal medya hesaplarımdan benimle iletişime geçmekten çekinmeyin. :)"
         }
     },
     "Footer": {
