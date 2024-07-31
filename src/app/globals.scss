@@ -45,6 +45,9 @@ body::-webkit-scrollbar-thumb:hover {
 //media queries 
 
 @media (max-width: 475px) {
+    .h1Experience {
+        font-size: 38px !important;
+    }
     .central-projects {
         flex-direction: column;
         gap: 1.75em;
@@ -75,7 +78,7 @@ body::-webkit-scrollbar-thumb:hover {
         font-size: 28px; 
     }
     .divDefaultBody {
-        padding: 0em 4em !important;
+        padding: 0em 3em !important;
     }
 }
 @media (max-width: 785px) and (min-width: 475px) {

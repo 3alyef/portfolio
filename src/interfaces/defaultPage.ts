@@ -1,6 +1,7 @@
 import { Locale } from "@/i18n";
 import { Dispatch, RefObject, SetStateAction } from "react";
 import { TypeDictionary } from "./dictionary";
+import { TypeHeader } from "@/app/components/header/components/link/tagsHeader";
 
 export type default_colors = {
     default_colors: {
@@ -20,14 +21,14 @@ export interface PropsDefaultPage extends default_colors{
 }
 
 export interface PropsBody extends PropsDefaultPage, TypeDictionary {
-    hrefers: string[];
+    hrefers: TypeHeader[];
 }
 
 // ==============================
 
 export interface PropsHeader extends PropsDefaultPage, TypeDictionary {
     headerRef: RefObject<HTMLAnchorElement>;
-    hrefers: string[];
+    hrefers: TypeHeader[];
 }
 
 export interface PropsMain extends PropsDefaultPage, TypeDictionary {

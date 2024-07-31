@@ -50,7 +50,7 @@ export default function Projects({ locale, style, styleDiv, dictionary, default_
                     <div className="aboutProject grid w-full  justify-stretch gap-[5.5em]">
                         <div className="flex flex-col first-div-Project">
                             <ProjectComponents alt={alt} img={src} name={name} className="animatedProject"
-                            classNameSpan={classNameSpan} default_colors={default_colors} clickFunction={()=>{clickFunction("none")}} type2Label={true} styleMain={{width: "25em"}}/>
+                            classNameSpan={classNameSpan} default_colors={default_colors} clickFunction={()=>{clickFunction("none")}} type2Label={true} />
                             <span className="flex justify-start w-full items-center gap-[1em]">
                                 <button className="btnProject cursor-pointer" onClick={()=>setProjectName(alt)}>
                                     <FaImages/>
@@ -86,7 +86,7 @@ export default function Projects({ locale, style, styleDiv, dictionary, default_
                 ): (
                     <>
                     <h1 className="h1Projects text-[50px] font-[700]">{dictionary.Main.Projects.projects}</h1>
-                    <div className="flex flex-col gap-5 justify-center items-center projects-padron">
+                    <div className="flex flex-col gap-5 justify-center items-center projects-padron w-full">
                         <ProjectComponents alt="al_postel" img="/assets/projectsImgs/al-postel-1.png" name="Chat App" className="animatedProject"
                         classNameSpan="aspect-[1.366/.611]" default_colors={default_colors} clickFunction={clickFunction} />
                         {/*<ProjectComponents alt="al_postel" img="/assets/projectsImgs/al-postel-1.png" name="Chat App"
@@ -94,7 +94,7 @@ export default function Projects({ locale, style, styleDiv, dictionary, default_
                         default_colors={default_colors} clickFunction={clickFunction}/>*/}
                     </div>
                     
-                    <div className="flex flex-col gap-5 justify-center items-center projects-padron">
+                    <div className="flex flex-col gap-5 justify-center items-center projects-padron w-full">
                         <ProjectComponents alt="al_postel_api" img="/assets/projectsImgs/alpostel-api-1.png" name="Chat App API"
                         className="animatedProject"
                         classNameSpan="aspect-[1.366/.611]"

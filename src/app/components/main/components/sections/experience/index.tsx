@@ -11,7 +11,7 @@ import TextAnimation from "../../textAnimation";
 export default function Experience({ locale, style, _dir, default_colors, dictionary, styleDiv }: PropsSection) {
     return (
         <DefaultBody locale={locale} style={{...style, padding: "7em 0em"}} id="experience" styleDiv={{...styleDiv, gap: "22px"}} className="min-h-[100vh]">
-            <h1 className="text-[50px] font-[700] w-full text-left" style={{color: default_colors.tsahal_n4}}>
+            <h1 className="text-[50px] font-[700] w-full text-left h1Experience" style={{color: default_colors.tsahal_n4}}>
                 {dictionary.Main.Experience.experience}
             </h1>
             <div className="flex flex-col gap-3">

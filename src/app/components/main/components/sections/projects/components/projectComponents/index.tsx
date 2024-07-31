@@ -19,7 +19,7 @@ export default function ProjectComponents({img, alt, name, className, styleImg, 
     
    
     return (
-        <div className={`flex flex-col justify-center items-center w-[20em] ${className} cursor-pointer gap-3`} style={styleMain}>
+        <div className={`flex flex-col justify-center items-center w-[100%] max-w-[20em] ${className} cursor-pointer gap-3`} style={styleMain}>
             <span className={`flex justify-center items-center relative ${classNameSpan} w-full`} onMouseEnter={()=> setLabelVible(true)} onMouseLeave={()=> setLabelVible(false)} onClick={()=>clickFunction(alt)}>
                 <Image src={img} alt={alt} className='absolute rounded-md' fill style={{...styleImg}}/>
                 {!labelVisible && !type2Label && (

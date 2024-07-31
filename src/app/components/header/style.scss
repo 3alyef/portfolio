@@ -11,8 +11,18 @@
     .languageNameSm {
         display: none;
     }
+    .linksHeaderIcon {
+        display: none;
+    }
 }
-
+@media (max-width: 475px) {
+    .linksHeaderText {
+        display: none !important;
+    }
+    .linksHeaderIcon {
+        display: block !important;
+    }
+}
 @media (max-width: 600px) {
     .portfolio-alef-logo {
         width: 2.5em !important;

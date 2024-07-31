@@ -86,7 +86,7 @@ export default function Header({ locale, _dir, default_colors, headerRef, hrefer
             </span>
             <nav className="flex gap-[1em] justify-center items-center py-[10px]">
                 {dictionary.Header.links.map((name, index)=>(
-                    <Link href={`${hrefers[index].toLowerCase()}`} text={name} key={hrefers[index]} locale={locale} fontOff={default_colors.tsahal_n5} className="text-[20px]"/>
+                    <Link href={`${hrefers[index].toLowerCase()}`} text={name} key={hrefers[index]} locale={locale} fontOff={default_colors.tsahal_n5} className="text-[20px]" icon={hrefers[index]}/>
                 ))}
             </nav>
             <LanguageSwitch locale={locale}/>

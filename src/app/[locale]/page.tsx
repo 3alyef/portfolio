@@ -2,12 +2,14 @@ import { Locale } from "@/i18n";
 import Body from "../components/body";
 import { getDictionary } from "@/lib/get-dictionary";
 import checkDir from "@/services/checkDir.service";
+import { TypeHeader } from "../components/header/components/link/tagsHeader";
 
 export default async function Start({
     params: { locale }
 } : { params: { locale: Locale } } ) {
     const dictionary = await getDictionary(locale);
-    const hrefers = (await getDictionary("en")).Header.links;
+    //const hrefers = (await getDictionary("en")).Header.links;
+    const hrefers: TypeHeader[] = ["Home", "About", "Experience", "Projects", "Contact"]
     const _dir = checkDir(locale);
     const default_colors = {
         tsahal_n1: "#132730",
