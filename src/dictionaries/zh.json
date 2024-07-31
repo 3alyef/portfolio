@@ -34,7 +34,7 @@
                 },
                 "al_postel_api": {
                     "name": "Al Postel API",
-                    "about": "一个使用TypeScript、Express和Socket.IO开发的RESTful API。该API提供了一系列端点，用于管理数据和与前端应用程序进行交互，该前端应用程序又管理一个消息应用程序。",
+                    "about": "一个使用TypeScript、Express和Socket.IO开发的RESTful API。该API提供了一系列端点，用于管理数据和与前端应用程序进行交互，该前端应用程序又管理一个消息应用程序... 2024 - 至今。",
                     "obs": ""
                 }
             }

@@ -3,7 +3,7 @@
         "title": "Portfolio"
     },
     "Header": {
-        "links": ["Startpagina", "Over mij", "Ervaring", "Projecten", "Contact"]
+        "links": ["Home", "Over mij", "Ervaring", "Projecten", "Contact"]
     },
     "Main": {
         "Home": {
@@ -12,16 +12,16 @@
         },
         "About": {
             "about_me": "Over mij",
-            "paragraph_1": "Hallo, ik ben Alef, een full stack ontwikkelaar die op zoek is naar mijn eerste professionele kans. Sinds eind 2020 richt ik me op webontwikkeling, waarbij ik altijd de balans zoek tussen respect voor gevestigde technologieën en openheid voor vernieuwingen.",
-            "paragraph_2": "Momenteel studeer ik Systeem Analyse en Ontwikkeling (ADS), en mijn doel is om mijn vaardigheden toe te passen en uit te breiden in een uitdagende en innovatieve omgeving. Ik ben enthousiast om bij te dragen met mijn passie voor technologie en mijn verlangen om te leren in een nieuw project."
+            "paragraph_1": "Hallo, ik ben Alef, een full stack ontwikkelaar op zoek naar mijn eerste professionele kans. Sinds eind 2020 richt ik mij op webontwikkeling, waarbij ik altijd de balans probeer te vinden tussen respect voor gevestigde technologieën en openheid voor innovaties.",
+            "paragraph_2": "Op dit moment studeer ik Systeemanalyse en Ontwikkeling (ADS) en mijn doel is om mijn vaardigheden toe te passen en uit te breiden in een uitdagende en innovatieve omgeving. Ik ben enthousiast om bij te dragen met mijn passie voor technologie en mijn verlangen om te leren in een nieuw project."
         },
         "Experience": {
             "experience": "Ervaring",
             "freelancer": "Freelancer",
-            "text": "Ik ben een freelance ontwikkelaar met een passie voor technologie, altijd op zoek naar creatieve en effectieve oplossingen voor verschillende uitdagingen.",
-            "paragraph_1": "Daarnaast heb ik ervaring in het ontwikkelen van API's en front-end interfaces.",
-            "paragraph_2": "Hoewel mijn eerdere projecten gericht waren op het verbeteren van mijn vaardigheden, kijk ik ernaar uit om mijn kennis toe te passen in een professionele omgeving en bij te dragen aan innovatieve en effectieve oplossingen.",
-            "paragraph_3": "Momenteel ben ik op zoek naar mogelijkheden om mijn professionele ervaring uit te breiden in een ontwikkelingsteam.",
+            "text": "Ik ben een freelancer ontwikkelaar die gepassioneerd is over technologie en altijd op zoek naar creatieve en effectieve oplossingen voor verschillende uitdagingen.",
+            "paragraph_1": "Daarnaast heb ik ervaring in het ontwikkelen van API's en het creëren van front-end interfaces.",
+            "paragraph_2": "Hoewel mijn eerdere projecten gericht waren op het verbeteren van mijn vaardigheden, ben ik enthousiast om mijn kennis toe te passen in een professionele omgeving en bij te dragen aan innovatieve en impactvolle oplossingen.",
+            "paragraph_3": "Op dit moment zoek ik naar mogelijkheden om mijn professionele ervaring uit te breiden binnen een ontwikkelingsteam.",
             "paragraph_4": "Mijn technologieën:"
         },
         "Projects": {
@@ -29,19 +29,19 @@
             "projectsAbout": {
                 "al_postel": {
                     "name": "Al Postel",
-                    "about": "Een project dat WhatsApp Web simuleert, berichten in real-time verzendt en ontvangt en berichten opslaat in een verzameling in de niet-relationele database MongoDB. De applicatie is gemaakt met Node.js aan de serverkant en Next.js aan de clientkant... 2024 - Heden.",
-                    "obs": "Opmerking: De server wordt gratis gehost op Render, dus er kan vertraging optreden bij inloggen en registreren."
+                    "about": "Een project dat WhatsApp Web simuleert, berichten verzendt en ontvangt in realtime, en berichten opslaat in een collectie in de niet-relationele database MongoDB. De applicatie is gemaakt met Node.js aan de serverzijde en Next.js aan de clientzijde... 2024 - Heden.",
+                    "obs": "Opmerking: De server wordt gratis gehost op Render, dus er kan vertraging optreden bij het inloggen en registreren."
                 },
                 "al_postel_api": {
                     "name": "Al Postel API",
-                    "about": "Een RESTful API ontwikkeld in TypeScript met Express en Socket.IO. Deze API biedt een reeks eindpunten om gegevens te beheren en te communiceren met een front-end applicatie, die op zijn beurt een berichtenapplicatie beheert.",
+                    "about": "Een RESTful API ontwikkeld in TypeScript met Express en Socket.IO. Deze API biedt een reeks eindpunten om gegevens te beheren en te communiceren met een front-end applicatie, die op zijn beurt een berichtenapplicatie beheert... 2024 - Heden.",
                     "obs": ""
                 }
             }
         },
         "Contact": {
             "contact": "Contact",
-            "text": "Momenteel ben ik op zoek naar mijn eerste professionele kans in een ontwikkelingsteam. Ik geloof dat het altijd tijd is om jezelf opnieuw uit te vinden en te leren van fouten. Aarzel niet om contact op te nemen via mijn sociale media. :)"
+            "text": "Op dit moment zoek ik naar mijn eerste professionele kans binnen een ontwikkelingsteam. Ik geloof dat het altijd tijd is om jezelf te vernieuwen en van fouten te leren. Voel je vrij om contact op te nemen via mijn sociale media. :)"
         }
     },
     "Footer": {

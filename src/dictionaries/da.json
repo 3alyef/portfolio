@@ -11,15 +11,15 @@
             "profession": "Webudvikler"
         },
         "About": {
-            "about_me": "Om Mig",
-            "paragraph_1": "Hej, jeg er Alef, en full stack udvikler, der søger min første professionelle mulighed. Siden slutningen af 2020 har jeg dedikeret mig til webudvikling, altid balancerende respekt for etablerede teknologier med åbenhed over for innovationer.",
-            "paragraph_2": "I øjeblikket studerer jeg Systemanalyse og -udvikling (ADS), og mit mål er at anvende og udvide mine færdigheder i et udfordrende og innovativt miljø. Jeg er begejstret for at bidrage med min passion for teknologi og min lyst til at lære i et nyt projekt."
+            "about_me": "Om mig",
+            "paragraph_1": "Hej, jeg er Alef, en full stack udvikler, der søger min første professionelle mulighed. Siden slutningen af 2020 har jeg viet mig til webudvikling, altid med balance mellem respekt for etablerede teknologier og åbenhed over for innovationer.",
+            "paragraph_2": "I øjeblikket studerer jeg Systemanalyse og -udvikling (ADS), og mit mål er at anvende og udvide mine færdigheder i et udfordrende og innovativt miljø. Jeg er spændt på at bidrage med min passion for teknologi og min lyst til at lære i et nyt projekt."
         },
         "Experience": {
             "experience": "Erfaring",
             "freelancer": "Freelancer",
-            "text": "Jeg er en Freelancer-udvikler med en passion for teknologi, der altid søger kreative og effektive løsninger på forskellige udfordringer.",
-            "paragraph_1": "Derudover har jeg erfaring med at udvikle API'er og front-end grænseflader.",
+            "text": "Jeg er en freelancer-udvikler, der brænder for teknologi og altid søger kreative og effektive løsninger på forskellige udfordringer.",
+            "paragraph_1": "Derudover har jeg erfaring med udvikling af API'er og front-end interfaces.",
             "paragraph_2": "Selvom mine tidligere projekter har fokuseret på at forbedre mine færdigheder, er jeg ivrig efter at anvende min viden i et professionelt miljø og bidrage til innovative og effektive løsninger.",
             "paragraph_3": "I øjeblikket søger jeg at udvide min professionelle erfaring i et udviklingsteam.",
             "paragraph_4": "Mine teknologier:"
@@ -29,19 +29,19 @@
             "projectsAbout": {
                 "al_postel": {
                     "name": "Al Postel",
-                    "about": "Et projekt, der simulerer WhatsApp Web, sender og modtager beskeder i realtid og gemmer beskeder i en samling i den ikke-relationelle database MongoDB. Applikationen blev oprettet med Node.js i backend og Next.js i frontend... 2024 - Nu.",
-                    "obs": "Bemærk: Serveren er hostet gratis på Render, så der kan være forsinkelse i login- og registreringsområdet."
+                    "about": "Et projekt, der simulerer WhatsApp Web, sender og modtager beskeder i realtid og gemmer beskeder i en samling i den ikke-relationelle database MongoDB. Applikationen blev oprettet med Node.js på backend og Next.js på frontend... 2024 - Nu.",
+                    "obs": "Bemærk: Serveren er gratis hostet på Render, så der kan være forsinkelse i login- og registreringsområdet."
                 },
                 "al_postel_api": {
                     "name": "Al Postel API",
-                    "about": "En RESTful API udviklet i TypeScript ved hjælp af Express og Socket.IO. Denne API leverer en række endpoints til at håndtere data og interagere med en frontend-applikation, som igen styrer en beskedapplikation.",
+                    "about": "En RESTful API udviklet i TypeScript ved hjælp af Express og Socket.IO. Denne API tilbyder en række slutpunkter til at administrere data og interagere med en front-end applikation, som igen administrerer en beskedapplikation... 2024 - Nu.",
                     "obs": ""
                 }
             }
         },
         "Contact": {
             "contact": "Kontakt",
-            "text": "I øjeblikket søger jeg min første professionelle mulighed i et udviklingsteam. Jeg mener, det er altid tid til at genopfinde sig selv og lære af fejl. Føl dig fri til at komme i kontakt via mine sociale medier. :)"
+            "text": "I øjeblikket søger jeg min første professionelle mulighed i et udviklingsteam. Jeg tror, det er altid tid til at genopfinde sig selv og lære af fejl. Du er velkommen til at kontakte mig via mine sociale medier. :)"
         }
     },
     "Footer": {

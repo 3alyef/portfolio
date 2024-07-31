@@ -1,9 +1,9 @@
 {
     "Metadata": {
-        "title": "Conas"
+        "title": "Conlaoch"
     },
     "Header": {
-        "links": ["Baile", "Faoi", "Taithí", "Tionscadail", "Teagmháil"]
+        "links": ["Baile", "Fúmsa", "Taithí", "Tionscadail", "Teagmháil"]
     },
     "Main": {
         "Home": {
@@ -11,17 +11,17 @@
             "profession": "Forbróir Gréasáin"
         },
         "About": {
-            "about_me": "Maidir liomsa",
-            "paragraph_1": "Dia dhuit, is mise Alef, forbróir full stack atá ag lorg mo chéad deis ghairmiúil. Ó dheireadh 2020, táim tiomanta do fhorbairt ghréasáin, i gcónaí ag cothromú idir meas ar na teicneolaíochtaí bunaithe agus oscailteacht do nuálaíochtaí.",
-            "paragraph_2": "Faoi láthair, táim ag staidéar ar Anailís agus Forbairt Córais (ADS), agus is é mo sprioc é mo scileanna a chur i bhfeidhm agus a leathnú i dtimpeallacht dhúshlánach agus nuálach. Táim sceitimíneach a bheith in ann cur le mo phaisean don teicneolaíocht agus mo theastaí le foghlaim i dtionscadal nua."
+            "about_me": "Fúmsa",
+            "paragraph_1": "Dia duit, is mise Alef, forbróir full stack atá ag lorg mo chéad deis ghairmiúil. Ó dheireadh 2020, táim tiomanta do fhorbairt ghréasáin, i gcónaí ag cothromú meas ar na teicneolaíochtaí bunaithe le hoscailteacht do nuálaíochtaí.",
+            "paragraph_2": "Faoi láthair, táim ag staidéar ar Anailís agus Forbairt Chórais (ADS), agus is é mo chuspóir é m'éachtaí a chur i bhfeidhm agus a leathnú i gcomhthéacs dúshlánach agus nuálach. Táim tnúth le cur le mo phaisean don teicneolaíocht agus mo ghuí chun foghlaim i dtionscadal nua."
         },
         "Experience": {
             "experience": "Taithí",
             "freelancer": "Freelancer",
-            "text": "Is forbróir freelancer mé atá paiseanta faoi theicneolaíocht, i gcónaí ag lorg réitigh chruthaitheacha agus éifeachtacha do réimsí éagsúla dúshlán.",
-            "paragraph_1": "Ina theannta sin, tá taithí agam ar fhorbairt APIanna agus comhoiriúnachtaí front-end.",
-            "paragraph_2": "Cé go raibh mo thionscadail roimhe seo dírithe ar mo scileanna a fheabhsú, táim ag tnúth le mo chuid eolais a chur i bhfeidhm i dtimpeallacht ghairmiúil agus cur le réitigh nuálacha agus éifeachtacha.",
-            "paragraph_3": "Faoi láthair, táim ag lorg tuilleadh taithí ghairmiúil i bhfoireann forbartha.",
+            "text": "Is forbróir freelancer mé atá paiseanta faoi theicneolaíocht, i gcónaí ag lorg réitigh chruthaitheacha agus éifeachtacha do dhúshláin éagsúla.",
+            "paragraph_1": "Ina theannta sin, tá taithí agam ar fhorbairt APIs agus comhoiriúnachtaí comhoiriúnachta front-end.",
+            "paragraph_2": "Cé go raibh mo thionscadail roimhe seo dírithe ar mo scileanna a fheabhsú, tá mé fonnmhar mo chuid eolais a chur i bhfeidhm i gcomhthéacs gairmiúil agus cur le réitigh nuálacha agus tionchair.",
+            "paragraph_3": "Faoi láthair, táim ag lorg leathan mo thaithí ghairmiúil i bhfoireann forbartha.",
             "paragraph_4": "Mo theicneolaíochtaí:"
         },
         "Projects": {
@@ -29,22 +29,22 @@
             "projectsAbout": {
                 "al_postel": {
                     "name": "Al Postel",
-                    "about": "Tionscadal atá ag simpliú WhatsApp Web, ag seoladh agus ag glacadh teachtaireachtaí i ndáimeanna ama, agus ag sábháil teachtaireachtaí i gcnuasach i mbunachar sonraí neamh-chaidreamh MongoDB. Cruthaíodh an t-iarratas le Node.js ar an gcúl agus Next.js ar an gcéad... 2024 - Gach lá.",
-                    "obs": "Nóta: Tá an freastalaí á óstáil saor in aisce ar Render, mar sin d’fhéadfadh moilliúnachtaí a bheith ann sa limistéar logála agus clárúcháin."
+                    "about": "Tionscadal a simulates WhatsApp Web, ag seoladh agus ag glacadh comhoiriúnachtaí i ndáthúla, agus ag coimeád comhoiriúnachtaí i gcomhoiriúnacht i mbun na bunachair sonraí neamh-chomhbhríoch MongoDB. Cruthaíodh an aip le Node.js ar an taobh cúil agus Next.js ar an taobh tosaigh... 2024 - Lá atá inniu ann.",
+                    "obs": "Nóta: Tá an freastalaí óstáilte saor in aisce ar Render, mar sin d'fhéadfadh moilleanna a bheith ann i réimse an iontrála agus cláraithe."
                 },
                 "al_postel_api": {
                     "name": "Al Postel API",
-                    "about": "API RESTful atá forbartha i TypeScript ag úsáid Express agus Socket.IO. Soláthraíonn an API seo raon pointe deireadh chun sonraí a bhainistiú agus comhoibriú le hiarratas front-end, a bhainistíonn iarratas teachtaireachta.",
+                    "about": "API RESTful atá forbartha i TypeScript ag úsáid Express agus Socket.IO. Soláthraíonn an API seo raon de na críochfoirt chun sonraí a bhainistiú agus idirghníomhú le comhoiriúnacht tosaigh, a bhainistíonn a thuilleadh aip teachtaireachtaí... 2024 - Lá atá inniu ann.",
                     "obs": ""
                 }
             }
         },
         "Contact": {
             "contact": "Teagmháil",
-            "text": "Faoi láthair, táim ag lorg mo chéad deis ghairmiúil i bhfoireann forbartha. Creidim gurb é an t-am i gcónaí athmhúnlú a dhéanamh ort féin agus foghlaim ó do chuid botún. Ná bíodh leisce ort teagmháil a dhéanamh tríd mo líonraí sóisialta. :)"
+            "text": "Faoi láthair, táim ag lorg mo chéad deis ghairmiúil i bhfoireann forbartha. Creidim gurb é an t-am i gcónaí chun tú féin a athdhéanamh agus foghlaim ó na botún. Ná bíodh leisce ort teagmháil a dhéanamh trí mo na meáin shóisialta. :)"
         }
     },
     "Footer": {
-        "copy": "Gach ceart ar cosaint"
+        "copy": "Gach ceart atá cosanta"
     }
 }

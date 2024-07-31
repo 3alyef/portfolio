@@ -34,7 +34,7 @@
                 },
                 "al_postel_api": {
                     "name": "Al Postel API",
-                    "about": "A RESTful API developed in TypeScript using Express and Socket.IO. This API provides a series of endpoints to manage data and interact with a front-end application, which, in turn, manages a messaging application.",
+                    "about": "A RESTful API developed in TypeScript using Express and Socket.IO. This API provides a series of endpoints to manage data and interact with a front-end application, which, in turn, manages a messaging application... 2024 - Present.",
                     "obs": ""
                 }
             }

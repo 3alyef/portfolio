@@ -11,17 +11,17 @@
             "profession": "Desenvolvedor Web"
         },
         "About": {
-            "about_me": "Sobre mim",
-            "paragraph_1": "Olá, sou Alef, um desenvolvedor full stack buscando minha primeira oportunidade profissional. Desde o final de 2020, tenho me dedicado ao desenvolvimento web, sempre equilibrando o respeito pelas tecnologias estabelecidas com a abertura para inovações.",
-            "paragraph_2": "Atualmente, estou estudando Análise e Desenvolvimento de Sistemas (ADS), e meu objetivo é aplicar e expandir minhas habilidades em um ambiente desafiador e inovador. Estou animado para contribuir com minha paixão por tecnologia e meu desejo de aprender em um novo projeto."
+            "about_me": "Sobre Mim",
+            "paragraph_1": "Olá, sou Alef, um desenvolvedor full stack em busca da minha primeira oportunidade profissional. Desde o final de 2020, venho me dedicando ao desenvolvimento web, sempre buscando equilibrar o respeito pelas tecnologias estabelecidas com a abertura para inovações.",
+            "paragraph_2": "Atualmente, estou estudando Análise e Desenvolvimento de Sistemas (ADS), e meu objetivo é aplicar e expandir minhas habilidades em um ambiente desafiador e inovador. Estou empolgado para contribuir com minha paixão por tecnologia e meu desejo de aprender em um novo projeto."
         },
         "Experience": {
             "experience": "Experiência",
             "freelancer": "Freelancer",
-            "text": "Sou um desenvolvedor freelancer apaixonado por tecnologia, sempre buscando soluções criativas e eficazes para diversos desafios.",
-            "paragraph_1": "Além disso, tenho experiência em desenvolvimento de APIs e em interfaces front-end.",
+            "text": "Sou um desenvolvedor freelancer apaixonado por tecnologia, sempre em busca de soluções criativas e eficazes para diversos desafios.",
+            "paragraph_1": "Além disso, tenho experiência no desenvolvimento de APIs e interfaces front-end.",
             "paragraph_2": "Embora meus projetos anteriores tenham se concentrado em aprimorar minhas habilidades, estou ansioso para aplicar meu conhecimento em um ambiente profissional e contribuir para soluções inovadoras e impactantes.",
-            "paragraph_3": "Atualmente, estou buscando expandir minha experiência profissional em uma equipe de desenvolvimento.",
+            "paragraph_3": "Atualmente, estou procurando expandir minha experiência profissional em uma equipe de desenvolvimento.",
             "paragraph_4": "Minhas tecnologias:"
         },
         "Projects": {
@@ -29,19 +29,19 @@
             "projectsAbout": {
                 "al_postel": {
                     "name": "Al Postel",
-                    "about": "Um projeto que simula o WhatsApp Web, enviando e recebendo mensagens em tempo real e salvando mensagens em uma coleção no banco de dados não relacional MongoDB. A aplicação foi criada com Node.js no back-end e Next.js no front-end... 2024 - Presente.",
-                    "obs": "Nota: O servidor está hospedado gratuitamente no Render, então pode haver latência na área de login e registro."
+                    "about": "Um projeto que simula o WhatsApp Web, enviando e recebendo mensagens em tempo real e armazenando mensagens em uma coleção no banco de dados não relacional MongoDB. A aplicação foi criada com Node.js no back-end e Next.js no front-end... 2024 - Presente.",
+                    "obs": "Nota: O servidor está hospedado gratuitamente no Render, portanto, pode haver latência na área de login e registro."
                 },
                 "al_postel_api": {
                     "name": "Al Postel API",
-                    "about": "Uma API RESTful desenvolvida em TypeScript usando Express e Socket.IO. Esta API fornece uma série de endpoints para gerenciar dados e interagir com uma aplicação front-end, que, por sua vez, gerencia uma aplicação de mensagens.",
+                    "about": "Uma API RESTful desenvolvida em TypeScript usando Express e Socket.IO. Esta API fornece uma série de endpoints para gerenciar dados e interagir com uma aplicação front-end, que, por sua vez, gerencia uma aplicação de mensagens... 2024 - Presente.",
                     "obs": ""
                 }
             }
         },
         "Contact": {
             "contact": "Contato",
-            "text": "Atualmente, estou buscando minha primeira oportunidade profissional em uma equipe de desenvolvimento. Acredito que sempre é tempo de se reinventar e aprender com os erros. Sinta-se à vontade para entrar em contato através das minhas redes sociais. :)"
+            "text": "Atualmente, estou em busca da minha primeira oportunidade profissional em uma equipe de desenvolvimento. Acredito que sempre é hora de se reinventar e aprender com os erros. Sinta-se à vontade para entrar em contato através das minhas redes sociais. :)"
         }
     },
     "Footer": {
