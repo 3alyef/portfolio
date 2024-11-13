@@ -36,7 +36,12 @@
                     "name": "Al Postel API",
                     "about": "En RESTful API udviklet i TypeScript ved hjælp af Express og Socket.IO. Denne API tilbyder en række slutpunkter til at administrere data og interagere med en front-end applikation, som igen administrerer en beskedapplikation... 2024 - Nu.",
                     "obs": ""
-                }
+                },
+								"cordel_project": {
+										"name": "Cordel-projekt",
+										"about": "Et simpelt website lavet i HTML og CSS, der præsenterer en cordel",
+										"obs": ""
+								}
             }
         },
         "Contact": {

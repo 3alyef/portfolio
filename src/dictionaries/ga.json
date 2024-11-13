@@ -36,7 +36,13 @@
                     "name": "Al Postel API",
                     "about": "API RESTful atá forbartha i TypeScript ag úsáid Express agus Socket.IO. Soláthraíonn an API seo raon de na críochfoirt chun sonraí a bhainistiú agus idirghníomhú le comhoiriúnacht tosaigh, a bhainistíonn a thuilleadh aip teachtaireachtaí... 2024 - Lá atá inniu ann.",
                     "obs": ""
-                }
+                },
+								"cordel_project": {
+										"name": "Tionscadal Cordel",
+										"about": "Suíomh Gréasáin simplí déanta in HTML agus CSS a chuireann cordel i láthair",
+										"obs": ""
+								}
+
             }
         },
         "Contact": {
