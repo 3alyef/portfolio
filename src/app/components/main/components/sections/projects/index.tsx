@@ -89,7 +89,8 @@ export default function Projects({ locale, style, styleDiv, dictionary, default_
 						<div className="flex flex-col gap-5 justify-center items-center projects-padron w-full">
 							<ProjectComponents alt="al_postel" img="/assets/projectsImgs/al-postel-1.png" name="Chat App" className="animatedProject"
 								classNameSpan="aspect-[1.366/.611]" default_colors={default_colors} clickFunction={clickFunction} />
-							<ProjectComponents alt="cordel_project" img="/assets/projectsImgs/al-postel-1.png" name="Chat App"
+
+							<ProjectComponents alt="cordel_project" img="/assets/projectsImgs/cordel_project_1.png" name="Cordel Project"
 								className="animatedProject" classNameSpan="aspect-[1.366/.611]"
 								default_colors={default_colors} clickFunction={clickFunction} />
 						</div>
